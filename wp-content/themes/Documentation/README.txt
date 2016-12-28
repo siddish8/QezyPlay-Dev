@@ -1,0 +1,1 @@
+Visit http://truemag.cactusthemes.com/doc/ for online and updated version of documentation

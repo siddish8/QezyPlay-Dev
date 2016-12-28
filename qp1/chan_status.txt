@@ -1,0 +1,1 @@
+101101101UPDATE channel_stream_status SET status=1 where id=1 or channel_id=0 1 if

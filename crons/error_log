@@ -1,0 +1,1 @@
+[08-Dec-2016 07:00:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/crons/cron-customer-statistics-mail-daily.php on line 18

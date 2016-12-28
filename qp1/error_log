@@ -1,0 +1,298 @@
+[22-Nov-2016 04:51:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 184
+[22-Nov-2016 05:21:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php:7) in /home/tradmin/public_html/newqezyplay/qp1/db-config.php on line 5
+[22-Nov-2016 05:21:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php:7) in /home/tradmin/public_html/newqezyplay/qp1/db-config.php on line 5
+[24-Nov-2016 05:47:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 05:47:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 05:47:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 05:47:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:48:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:48:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:48:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:49:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:49:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 07:49:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 211
+[24-Nov-2016 08:28:44 UTC] PHP Fatal error:  Call to undefined function get_val() in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 166
+[24-Nov-2016 10:38:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/geo-maps.php on line 86
+[24-Nov-2016 10:38:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[24-Nov-2016 10:38:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[24-Nov-2016 12:16:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[25-Nov-2016 09:07:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/geo-maps.php on line 86
+[25-Nov-2016 09:07:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/geo-maps.php on line 86
+[25-Nov-2016 09:10:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/geo-maps.php on line 86
+[25-Nov-2016 10:16:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:16:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:17:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:17:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:17:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:18:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:18:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:18:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:19:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:19:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:19:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:19:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:19:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:19:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:19:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:19:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:20:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 10
+[25-Nov-2016 10:20:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:20:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/user-enquiries.php on line 211
+[25-Nov-2016 10:20:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/user-enquiries.php on line 211
+[25-Nov-2016 10:20:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/user-enquiries.php on line 211
+[25-Nov-2016 10:20:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[25-Nov-2016 10:39:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 19
+[25-Nov-2016 10:47:52 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/tradmin/public_html/newqezyplay/qp1/qm_ssm.php on line 44
+[28-Nov-2016 06:02:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:02:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:02:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:02:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:02:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[28-Nov-2016 06:02:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:02:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[28-Nov-2016 06:03:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:03:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[28-Nov-2016 06:04:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:04:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:04:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[28-Nov-2016 06:04:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:04:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:04:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[28-Nov-2016 06:04:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 06:04:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[28-Nov-2016 10:24:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[28-Nov-2016 10:57:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[29-Nov-2016 11:22:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/EPG-management.php on line 43
+[29-Nov-2016 12:00:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tradmin/public_html/newqezyplay/qp1/EPG-management.php on line 290
+[29-Nov-2016 12:52:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[29-Nov-2016 12:52:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:52:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:53:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:53:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[29-Nov-2016 12:53:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:53:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:54:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:54:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:54:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:55:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:55:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:55:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:56:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:56:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:56:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:57:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:57:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:57:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:58:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:58:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[29-Nov-2016 12:59:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:25:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:25:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[30-Nov-2016 12:25:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:25:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:25:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:25:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/channel_streaming_status.php on line 23
+[30-Nov-2016 12:26:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:26:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:27:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:28:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:29:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:30:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:31:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:32:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:33:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:34:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:34:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:34:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[30-Nov-2016 12:34:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:16:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:16:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:17:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:18:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:19:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:19:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 05:19:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/geo-maps.php on line 86
+[02-Dec-2016 05:20:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:38:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:39:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:39:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:39:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:40:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:40:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[02-Dec-2016 10:40:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[02-Dec-2016 10:40:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[02-Dec-2016 10:40:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:40:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:41:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:41:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:41:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:42:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:42:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:42:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:43:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:43:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:43:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:44:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:44:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:44:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:45:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:45:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:45:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:46:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[02-Dec-2016 10:46:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[05-Dec-2016 10:29:08 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/tradmin/public_html/newqezyplay/qp1/ex.php on line 66
+[05-Dec-2016 10:29:08 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/tradmin/public_html/newqezyplay/qp1/ex.php on line 66
+[05-Dec-2016 10:29:08 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tradmin/public_html/newqezyplay/qp1/ex.php on line 66
+[05-Dec-2016 11:21:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tradmin/public_html/newqezyplay/qp1/ex.php:6) in /home/tradmin/public_html/newqezyplay/qp1/db-config.php on line 5
+[05-Dec-2016 11:22:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tradmin/public_html/newqezyplay/qp1/ex.php:2) in /home/tradmin/public_html/newqezyplay/qp1/db-config.php on line 5
+[05-Dec-2016 11:26:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tradmin/public_html/newqezyplay/qp1/ex.php:2) in /home/tradmin/public_html/newqezyplay/qp1/db-config.php on line 5
+[05-Dec-2016 11:33:59 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/tradmin/public_html/newqezyplay/qp1/server.php on line 64
+[05-Dec-2016 12:44:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 229
+[06-Dec-2016 06:10:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[06-Dec-2016 06:34:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/login.php on line 20
+[06-Dec-2016 06:36:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 06:49:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 299
+[07-Dec-2016 06:50:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 299
+[07-Dec-2016 06:52:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 299
+[07-Dec-2016 06:53:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 299
+[07-Dec-2016 07:22:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 664
+[07-Dec-2016 07:23:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 664
+[07-Dec-2016 07:25:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 664
+[07-Dec-2016 07:26:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 378
+[07-Dec-2016 07:26:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 664
+[07-Dec-2016 07:31:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 673
+[07-Dec-2016 08:53:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 672
+[07-Dec-2016 08:53:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 672
+[07-Dec-2016 08:54:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 672
+[07-Dec-2016 09:44:03 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 288
+[07-Dec-2016 09:44:46 UTC] PHP Warning:  date_diff() expects parameter 2 to be DateTimeInterface, string given in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 283
+[07-Dec-2016 09:44:46 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 286
+[07-Dec-2016 09:59:14 UTC] PHP Parse error:  syntax error, unexpected '3' (T_LNUMBER) in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 297
+[07-Dec-2016 09:59:30 UTC] PHP Parse error:  syntax error, unexpected '3' (T_LNUMBER) in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 297
+[07-Dec-2016 12:13:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:13:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 12:13:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:13:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:14:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:14:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:14:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:15:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:15:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:15:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:16:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:16:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 12:16:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:16:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:17:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:17:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:17:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:18:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:18:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:18:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:18:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 12:19:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:19:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 12:19:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:19:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:20:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:20:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:20:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:21:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:21:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:21:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:22:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:22:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[07-Dec-2016 12:22:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:22:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:23:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:23:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:23:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:24:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:24:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:24:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:25:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:25:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 303
+[07-Dec-2016 12:25:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 303
+[07-Dec-2016 12:25:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:25:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:26:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:26:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:26:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:27:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:27:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[07-Dec-2016 12:37:40 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/shows-promocodes.php on line 306
+[08-Dec-2016 05:34:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[08-Dec-2016 05:34:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[08-Dec-2016 06:51:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[08-Dec-2016 06:59:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[08-Dec-2016 09:13:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[08-Dec-2016 10:30:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[08-Dec-2016 10:54:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 227
+[08-Dec-2016 13:07:53 UTC] PHP Fatal error:  Call to undefined function do_shortcode() in /home/tradmin/public_html/newqezyplay/qp1/login_x.php on line 51
+[08-Dec-2016 13:10:13 UTC] PHP Fatal error:  Call to undefined function do_shortcode() in /home/tradmin/public_html/newqezyplay/qp1/login_x.php on line 51
+[08-Dec-2016 13:22:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 231
+[09-Dec-2016 11:49:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/promocodes-groups.php on line 383
+[12-Dec-2016 11:46:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:37:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:37:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:37:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:40:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:40:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:40:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:43:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:43:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:43:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:46:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:46:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:49:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:49:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:49:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:52:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[12-Dec-2016 14:52:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/function_common.php on line 223
+[14-Dec-2016 10:21:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp1/uservalidation_check.php on line 231

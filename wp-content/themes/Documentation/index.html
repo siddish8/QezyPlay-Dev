@@ -1,0 +1,1445 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>TrueMag - Videos and Magazine Wordpress Theme</title>
+	
+	<meta name="description" content="For support please checkout http://www.cactusthemes.com">
+	<meta name="author" content="CactusThemes.com">
+	<meta name="copyright" content="CactusThemes.com">
+	<meta name="date" content="2014-05-06">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/jquery.unveil.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.scrollTo-1.4.7.min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="assets/css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();jQuery(document).ready(function() {
+		  jQuery("img").unveil();
+		});</script>
+
+	<script>document.createElement('section');var duration=913,easing='easeOutQuart';</script>
+	<style type="text/css" media="screen">
+		.accordion-heading .accordion-toggle{font-weight:bold}
+	</style>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#A8A7A7;color:#363636;background-image:url(assets/images/image_1.gif);background-repeat:repeat;background-attachment:scroll;}
+		::-moz-selection{background:#404040;color:#B50D0D;}
+		::selection{background:#404040;color:#B50D0D;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);}
+		a{color:#830909;}
+		hr{border-top:1px solid #858484;border-bottom:1px solid #CFCDCD; border-left:10px;border-right:10px}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#ffffff;color:#e8e8e8;}		
+		#documenter_sidebar ul a{color:#000;}
+		#documenter_sidebar ul a:hover{background:#e8e8e8;color:#000000;}
+		#documenter_sidebar ul a.current{background:#404040;color:#ffffff;border-top:1px solid #404040;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		.bigfont{font-size:1.5em}
+	</style>
+	 <script>
+		$(function() {
+		$( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+		$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+		});
+		</script>
+		<style>
+		.ui-tabs-vertical { width: 100%; }
+		.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+		.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+		.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+		.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+		.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 59em;}
+		.ui-tabs-vertical .ui-tabs-panel img{max-width:100%}
+		</style>
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<div id="scroller">
+		<ul id="documenter_nav">
+			<li><a class="current section" href="#documenter_cover">First to know</a></li>
+			<li><a href="#layout" class="section">Layout</a></li>
+			<li><a href="#install" class="section">Install and Update</a>
+				<ol>
+					<li><a href="#install_autoupdate">Auto Update</a></li>
+					<li><a href="#install_manualupdate">Manual Update</a></li>
+				</ol>
+			</li>
+			<li><a href="#sample_data" class="section">Install Sample Data</a></li>
+			<li><a href="#menu" class="section">How to create Menu</a>
+			<ol>
+					<li><a href="#menu_existing_menu">Existing Menu</a></li>
+					<li><a href="#menu_create_menu">Create new Menu</a></li>
+					<li><a href="#menu_column">Column Style</a></li>
+					<li><a href="#menu_list">List Style</a></li>
+					<li><a href="#menu_preview_mode">Preview Mode Menu</a></li>
+				</ol>
+			</li>
+			<li><a href="#theme_options" class="section">Theme Options</a></li>
+			<li><a href="#shortcodes" class="section">Shortcodes & Visual Composer</a></li>
+			<li><a href="#smart_content_box" class="section">Smart Content Box</a></li>
+			<li><a href="#setting_homepage" class="section">Setting Home Page & Blog</a></li>
+			<li><a href="#config_header" class="section">Configure Header Style</a>
+				<ol>
+					<li><a href="#config_header_v1">V1_Carousel1</a></li>
+					<li><a href="#config_header_v2">V2_Boxed Carousel2</a></li>
+					<li><a href="#config_header_v3">V3_FullWidth Carousel2</a></li>
+					<li><a href="#config_header_v4">V4_Metro Slider</a></li>
+					<li><a href="#config_header_v5">V5_Revolution Slider</a></li>
+					<li><a href="#config_header_v6">V6_Big Video Carousel</a></li>
+					<li><a href="#config_header_v7">V7_Very Big Video</a></li>
+					<li><a href="#config_header_v8">V8_Side Slider</a></li>
+					<li><a href="#config_header_v9">V9_Classy Slider</a></li>
+					<li><a href="#config_header_v10">V10_Amazing slider</a></li>
+					<li><a href="#config_header_image">HomePage Photo</a></li>
+					<li><a href="#config_header_darklight">Light Version</a></li>
+				</ol>	
+			</li>
+			<li><a href="#theme_purpose" class="section">Theme Purpose: Video and Magazine</a></li>	
+			<li><a href="#category" class="section">Category Page</a></li>	
+			<li><a href="#page_post" class="section">Pages & Posts</a></li>
+			<li><a href="#rating" class="section">TrueMag Rating plugin</a></li>
+			<li><a href="#channel" class="section">Cactus Channel plugin</a>
+				<ol>
+					<li><a href="#channel_manage">Channel Management</a></li>
+					<li><a href="#channel_subscribe">Channel Subscription</a></li>
+					<li><a href="#channel_settings">Channel Settings</a></li>
+				</ol>
+			</li>
+			<li><a href="#playlist" class="section">Video Playlist</a>
+				<ol>
+					<li><a href="#playlist_manage">Playlist Management</a></li>
+					<li><a href="#playlist_settings">Playlist Settings</a></li>
+				</ol>
+			</li>
+			<li><a href="#other_settings" class="section">Other Features</a>	
+				<ol>
+					<li><a href="#other_settings_ads">Advertising Spaces</a></li>
+					<li><a href="#other_settings_advanced">Advanced Search Form</a></li>
+					<li><a href="#other_settings_headline">Headline section</a></li>
+					<li><a href="#other_settings_pathway">Breadcrumb / Pathway</a></li>
+					<li><a href="#other_settings_playlist">Favourite Videos - User Playlist</a></li>
+					<li><a href="#other_settings_google">Google Adsense</a></li>
+					<li><a href="#other_settings_submit">User Submit Post</a></li>
+					<li><a href="#other_settings_ads_management">Video Ads Management</a></li>
+					<li><a href="#other_settings_social_locker">OnePress Social Locker</a></li>
+					<li><a href="#other_settings_player_logic">Conditional Code for video player</a></li>
+					<li><a href="#other_settings_multi_links">Multi Links</a></li>
+					<li><a href="#other_settings_movie_series">Movie Series</a></li>
+                    <li><a href="#other_settings_report_video">Report Video</a></li>
+					<li><a href="#other_settings_video_sitemap">Video Sitemap</a></li>
+                    <li><a href="#other_settings_youtube_V3_API">Video Youtube API</a></li>
+					<li><a href="#other_settings_kaltura_video">Kaltura video</a></li>
+					<li><a href="#other_settings_jwplayer_subtitle">JWPlayer 6 - Video Sub-title</a></li>
+					<li><a href="#other_settings_jwplayer_7">JWPlayer 7 - Integration</a></li>
+					<li><a href="#other_settings_wordpress_automatic">WordPress Automatic</a></li>
+				</ol>
+			</li>
+			<li><a href="#hooks" class="section">Hooks</a></li>
+			<li><a href="#language" class="section">Translation & RTL</a></li>
+			<li><a href="#licenses" class="section">Licenses & Support</a></li>
+		</ul>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>TrueMag - Videos and Magazine Wordpress Theme - v4.0</h1><h2>The Documentation</h2><hr><ul><li>Created: December 5th 2013</li><li>Latest Update:  August 29th 2015</li><li>By: CactusThemes</li><li><a href="http://themeforest.net/user/cactusthemes">http://themeforest.net/user/cactusthemes</a></li><li>Email: <a href="mailto:hi@cactusthemes.com">hi@cactusthemes.com</a></li></ul><p>For support please checkout <a href="http://ticket.cactusthemes.com/">CACTUSTHEME SUPPORT FORUM</a></p></section>
+<section id="layout">
+<h3>TrueMag Layout</h3><hr class="notop">
+<div class="full">
+<a href="assets/images/Truemag-Position-Guide.jpg">
+<img src="assets/images/Truemag-Position-Guide.jpg"/>
+</a>
+</div>
+</section>
+<section id="install">
+	<h3>Install and Update</h3><hr class="notop">
+<p>&nbsp;
+	</p>
+<p>Always remember to download the latest version from your ThemeForest account. The <b>Installable Wordpress Themes</b> is just the installable Wordpress theme files. The <b>Main Files</b> includes these following files and folders:</p>
+<div class="box_code">
+	<ul>
+		<li><b>Documentation Folder</b> - contains this document and other materials</li>
+		<li><b>Installation Files Folder</b> - contains all installable files, including theme & plugins<br/>
+			<ul>
+				<li><b>theme/wp-theme-truemag.zip</b> - TrueMag theme</li>
+				<li><b>plugins/plg-truemag-shortcodes.zip</b> - A plugin which contains all shortcodes for theme. It contains Visual Composer plugin which helps you visually build pages</li>
+				<li><b>plugins/plg-truemag-movie.zip</b> - A plugin which enables Movie feature for theme</li>
+				<li><b>plugins/plg-truemag-rating.zip</b> - A plugin which enables Rating feature for theme</li>
+				<li><b>plugins/plg-ct-member.zip</b> - A plugin which enables Member feature for theme</li>				
+				<li><b>plugins/plg-video-ads.zip</b> - provide "in-video" advertising solution</li>
+				<li><b>plugins/plg-cactus-video.zip</b> - provide video-playlist feature</li>
+				<li><b>plugins/plg-cactus-channel.zip</b> - provide video-channel feature</li>
+				<li><b>plugins/plg-mashmenu.zip</b> - A (premium) plugin which displays menu in different way</li>
+				<li><b>plugins/plg-advance-search-form.zip</b> - A (premium) plugin which adds more features to default search form</li>
+				<li><b>plugins/plg-revslider.zip</b> - The amazing (premium) Revolution Slider which creates beautiful image sliders for your website.</li>
+				<li><b>plugins/jw-player-plugin-for-wordpress.zip</b> - (not-supported) JW Player for WordPress</li>
+			</ul>
+		</li>
+		<li><b>Sample Data Folder</b> - contains sample data files<br/>
+			<ul>
+				<li><b>TrueMag-data.xml</b> All Data</li>
+				<li><b>TrueMag-themeoptions-settings.txt</b> Theme Options Settings</li>
+				<li><b>TrueMag-revslider-home.zip</b> Sampple Revolution Slider</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	<div style="text-align:center"><iframe width="800" height="470" src="http://www.youtube.com/embed/X9ERnDJX0M0" frameborder="0" allowfullscreen></iframe></div><br/>
+<div class="fr">
+	<img alt="" src="assets/img/loading.gif" data-src="assets/images/1.png"></div>
+	<div>
+		<strong>Step 1.</strong>&nbsp;Log into your WordPress Admin area.</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 2.</strong>&nbsp;Look down the left hand column for &ldquo;Appearance&rdquo; and then click on the word &ldquo;Themes&rdquo;.</div>
+	<div>
+		&nbsp;</div>
+<div>
+	<strong>Step 3.</strong>&nbsp;In the "Themes" page, click &ldquo;Install Themes&rdquo;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 4.</strong>&nbsp;In the "Install Themes" page, click "Upload", then click &ldquo;Browse&rdquo; to browse for the theme installation file in <a href="javascript:void(0">[path-to-your-downloaded-package]/Installation File/TrueMag.zip</a>). Click "Install Now".</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 5.</strong>&nbsp;After installed successfully, click "Activate" to make the theme active</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 6.</strong>&nbsp;Install optional plugins if needed. The four included plugins are optional, but we recommend to install at least TrueMag Shortcodes and TrueMag Movie plugin to have full features. Navigate to <b>Plugins > Add New</b> to install and activate plugins. Besides, we recommend using these extra plugins (free). All has been tested and used on our demo page</div>
+<div class="box_code">
+	<ul>
+		<li><a href="http://wordpress.org/plugins/custom-sidebars/"><b>Custom Sidebar</b></a> - Allows to create your own widgetized areas and custom sidebars, and select what sidebars to use for each post or page.</li>
+		<li><a href="http://contactform7.com/"><b>Contact Form 7</b></a> - Simple but flexible contact form plugin</li>
+		<li><a href="http://wordpress.org/plugins/black-studio-tinymce-widget/"><b>Black Studio TinyMCE Widget</b></a> - A WYSIWYG widget</li>
+		<li><a href="http://www.laptoptips.ca/projects/tinymce-advanced/"><b>TinyMCE Advanced</b></a> - Enables advanced features and plugins in TinyMCE, the visual editor in WordPress</li>
+		<li><a href="http://wordpress.org/plugins/wp-pagenavi/"><b>WP PageNavi</b></a> - Adds a more advanced paging navigation to your WordPress blog</li>
+		<li><a href="http://wordpress.org/plugins/categories-images/"><b>Category Images</b></a> - Allows to add image to category</li>
+	</ul>
+</div>
+<h4 id="install_autoupdate">Auto Update</h4>
+<ol>
+  <li>Go to <b>Plugins > Add News > Upload</b>, find and install <b>/plugins/envato-wordpress-toolkit.zip</b> file (in the download package)</li>
+  <li>To establish an <b>Envato Marketplace API</b> connection navigate to the Envato Toolkit page and insert your Marketplace username and secret API key in the designated input fields. To obtain your API Key, visit your "My Settings" page on any of the Envato Marketplaces</li>
+  <li>Once the API connection has been established you will see a list of themes that can be auto installed. If you don't see any themes and are certain you've done everything correct, there is a good chance the theme author has not updated their theme to be available for auto install and update. If that's the case, please contact the theme author and ask them to update their theme's information</li>
+	<li><b>Note</b> Only theme is updated. Related plugins must be updated manually. Please check release logs to see if you need to update plugins</li>
+</ol>
+<h4 id="install_manualupdate">Manual Update</h4>
+<div>You can also update new version in traditional way:</div>
+<ol>
+	<li><b>Deactive current theme</b> by going to <b>Appearance > Themes</b> and activate any other themes such as the default Wordpress 3.8's <b>Twenty Fourteen</b>.</li>
+	<li><b>Delete older version</b> by clicking on <b>Delete</b> link. Confirm to delete.</li>
+	<li><b>Update and re-install</b> new version.</li>
+</ol>
+<div>All posts and settings will be saved. This is data-safe method.</div>
+<div>
+	&nbsp;</div>
+</section><!-- end install section -->
+<section id="sample_data">
+	<h3>Install Sample Data</h3><hr class="notop">
+<h5>One Click Install</h5>
+<div class="box_code">
+<p>Before starting, there are some notes worth checking:</p>
+<ol>
+	<li>Make sure you have installed all recommended plugins before importing sample data<br/>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/44.jpg"/></div>
+	</li>
+	<li>It is better to install sample data on a fresh Wordpress installation. Therefore, you may want to reset your site to default settings. Install and use <b><a href="http://wordpress.org/plugins/wordpress-reset/" target="_blank">Wordpress Reset</a></b> plugin to do that. After installed, go to <b>Tools > Reset</b></li>
+	<li>The import process may take several minutes due to large data and your server capacity. If your server setting "Max Execution Time" is too low, increase it (as your hosting provider). Please do not close the browser until it finishes. If it fails, you can run this process again until seeing the "Success Message". <b style="color:#FF0000">Demo Images are not installed due to some copyrighted licenses</b>
+	</li>
+	<li>Install Sample Revolution Slider if needed. Go to <b>Revolution Slider</b>, click <b>Import Slider</b> and browse for <b>/Sample-Data/revslider-home.zip</b> in the full download package
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/import-slider.png"/></div>
+	</li>
+	<li>If you have to run the process more than once, menu items may be duplicated. Just go to <b>Appearance > Menus</b> and edit/delete <b>Main Menu</b> items</li>
+</ol>
+</div><br/>
+<div>Go to <b>Appearance > Theme Options</b>, scroll to bottom, you will see a button <b>Import Sample Data</b>. Click on that and confirm to install sample data. That's all! </div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/41.png" alt=""/>
+</div><br/>
+<div><b>Feature Images are just for demo purposes. Do not worry about the image size. Once you replace them with your own images, they will look like our demo page.</b>
+</div>
+<div>Additional step: go to <b>Appearance > Widget</b>, in <b>Home Sidebar</b>, open the first <b>Text widget</b> and enter <b>no-border</b> in <b>Custom Variation</b> field. This will change the style of Testimonial widget in home page.<br/>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/42.jpg" alt=""/>
+</div><br/>
+</div>
+<br/>
+<h5>Traditional way to import</h5>
+<div><b>Alternatively</b>, you can use traditional way to import data. In <b>/Sample Data/</b> folder, you can find there are:
+	<ul>
+		<li><b>truemag-data.xml</b> All Data</li>
+		<li><b>themeoptions-settings.txt</b> Theme Options Settings</li>
+		<li><b>revslider-home.zip</b> Sample Revolution Slider</li>
+		<li><b>widget_data.json</b> Widget configuration</li>
+	</ul>
+</div>
+<div>
+	To install sample data as seen on <a href="http://demo.cactusthemes.com/truemag">our demo page</a>, following these steps</div>
+<div style="text-align:center"><br/><iframe width="800" height="470" src="assets/img/loading.gif" data-src="//www.youtube.com/embed/iB1pwZ3KnDo" frameborder="0" allowfullscreen></iframe><br/></div>
+<div class="fr"><img alt="" src="assets/img/loading.gif" data-src="assets/images/4.png"/></div>
+<div>
+	<strong>Step 0.</strong>&nbsp;Make sure you have installed TrueMag theme and all recommended plugins</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 1.</strong>&nbsp;Go to <b>Tools > Import</b>, then click on <b>Wordpress</b></div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 2.</strong>&nbsp;If it is not yet installed before, you have to install it. On the popup window, click on "Install Now"</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 3.</strong>&nbsp;After installed successfully, click on <b>Activate Plugin & Run Importer</b></div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 4.</strong>&nbsp;Browse for <a href="javascript:void(0">[path-to-your-downloaded-package]/Installation File/Sample Data/TrueMag-data.xml</a> and click <b>Upload File and Import</b>.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 5.</strong>&nbsp;After uploaded, the confirmation page appears. Check the <b>Download and import file attachments</b> option and click <b>Submit</b>. <span style="color:red">If you have trouble with importing (it might breaks in the middle due to long execution time), try again with this option Unchecked! Or, try to import separate files as they are smaller</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 6.</strong>&nbsp;After uploaded, the confirmation page appears. Check the <b>Download and import file attachments</b> option and click <b>Submit</b></div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 7.</strong>&nbsp;When you see message <b>"All done. Have fun!"</b>, you will know that the import is done. <span style="color:red">Note: you may need to re-import the second time if the data is large. Back to Step 1. until you see the message below</span></div>
+<div>
+	&nbsp;</div>
+<div class="clear"><!-- --></div>
+<div class="grid">
+	<a href="assets/images/5.png"><img alt="" src="assets/img/loading.gif" data-src="assets/images/5.png"/></a>
+	<a href="assets/images/6.png"><img alt="" src="assets/img/loading.gif" data-src="assets/images/6.png"/></a>
+	<a href="assets/images/7.png"><img alt="" src="assets/img/loading.gif" data-src="assets/images/7.png"/></a>	
+	<a href="assets/images/8.png"><img alt="" src="assets/img/loading.gif" data-src="assets/images/8.png"/></a>
+	<a href="assets/images/9.png"><img alt="" src="assets/img/loading.gif" data-src="assets/images/9.png"/></a>
+</div>
+<br/><br/>
+<div><strong>Step 8.</strong>&nbsp;Go to <b>Settings > Reading</b>, set <b>Front page displays</b> to <b>A Static page</b>. Choose <b>Home Page</b> page as <i>Front page</i> and <b>Blog</b> as <i>Posts page</i></div>
+
+<div><strong>Step 9.</strong>&nbsp;Go to <b>Appearance > Menus</b>, choose <b>Main Navigation</b> menu as <b>Primary Menu</b></div>
+
+<div><strong>Step 10.</strong>&nbsp;Install <b><a href="http://wordpress.org/plugins/widget-settings-importexport/" target="_blank">Widget Settings Importer/Exporter</a></b> and go to <b>Tools > Widget Settings Import</b> to import <b>Sample-data/widget_data.json</b> file</b></div>
+
+<div><strong>Step 11.</strong>&nbsp;Go to <b>Option Tree > Settings > Import</b> and paste content of <b>Sample-Data/theme-options.txt</b> into Theme Options text field, then click <b>Import Theme Options</b> button.</div>
+
+<div><strong>Step 12.</strong>&nbsp;OK, done!</div>
+</section>
+<section id="menu">
+	<h3>How To Create Menu</h3><hr class="notop">
+		<div>Three are three menu locations in theme:
+			<ul>
+				<li>Primary Menu</li>
+				<li>Footer Menu</li>
+			</ul>
+		In which, you can turn on <b>Mega Menu</b> feature for <i>Primary Menu</i> (beside the Multi-Level Dropdown Menus style) in <i>Theme Options > Main Navigation > Enable MegaMenu > ON</i>. <i>Mega Menu</i> has 3 sub-level-menu styles including <b>List Style</b>, <b>Column Style</b> and <b>Preview Mode</b>. Please check next sections to see how to configure the Mega Menu.<br/><br/></div>
+		<div>If you have imported demo content, follow <b>Existing Menu</b> or else follow <b>Creating a New Menu</b> to create a new menu.</div>
+	<h4 id="menu_existing_menu">Existing Menu</h4>
+		<ol>
+			<li>Go to <b>Appearance > Menus</b></li>
+			<li>In the <b>Manage Locations</b> area, under <b>Main Navigation</b>, select menu for <b>Primary Menu</b>, <b>Secondary Menu</b> or <b>Footer Menu</b>. Click <b>Save</b></li>
+		</ol>
+		<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/menu-location-choose.jpg"/></div>
+	<h4 id="menu_create_menu">Creating a New Menu</h4>
+		<ol>
+			<li><p>Go to to <b>Appearance > Menus</b></p></li>
+			<li><p>Click <b>Create a new menu</b>. Enter a menu's name and click <b>Create Menu</b></p></li>
+			<li><p>Check the menu item in the boxes in the left column, click <b>Add to Menu</b> to add items to the menu and drag/drop to arrange them.</p>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/check-add-to-menu.jpg"/></div>
+			</li>
+			<li><p>If you would like to use this menu in navigation, in the <b>Manage Locations</b> area, assign your newly created menu to <i>Primary Menu</i>, <i>Secondary Menu</i> or <i>Footer Menu</i>. Click <b>Save</b></p></li>
+			<li><p>Click <b>Save Menu</b> and that is all</p></li>
+		</ol>
+		
+<h3>Mega Menu</h3><hr class="notop">
+
+		<div>To turn on <b>Mega Menu</b> mode for main navigation, go to <b>Theme Options > Main Navigation >  Enable MegaMenu</b> and choose <b>ON</b>, then go to <b>Appearance > Menus</b> to configure the menu structure. Mega Menu can contain three sub-menu styles: <b>List Style</b>, <b>Column Style</b> and <b>Preview Mode</b></div>
+		<h4 id="menu_column">Column Style</h4>		
+			<div><i>Column Style</i> is a multi-column style menu to display menu items (such as posts, pages, categories) and widgets like in below figure</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/column_menu.jpg"/></div>
+		
+			<ol>
+				<li><i>Column Style</i> MUST HAVE <b>Level 0</b>, <b>Level 1</b> (also called Heading of Column), and <b>Level 2</b> menu items. <br/>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/menu2.png"/></div>
+				</li>
+				
+				<li>Click on a <i>Level 0</i> menu item and select <b>Column Style</b> in <b>Menu Style</b> (Menu Style is only displayed for Menu Level 0)<br/>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/column_menu1.png"/></div>
+				</li>
+				<li>To put a widget into a column, (widget is only put into Level 1), prepare a sidebar to contain widgets first. It is recommdended to use <a href="https://wordpress.org/plugins/custom-sidebars/" target="_blank">Custom Sidebar plugin</a> to register new sidebar for this purpose. Then, drag widgets that you want to display in menu into the new Sidebar.<br/><br/>
+				After widgets are set up, go back Menus and click on a <i>Level 1</i> menu item. Choose sidebar in <b>Display widgets area</b>.
+				<div><p><b>Note</b>: <i>Display widgets area</i> is only displayed in Menu Level 1</p></div>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/menu3.png"/></div>
+				</li>
+				<li>You can configure <b>Display Logic</b> option to control the appearance of this menu item
+					<ul>
+						<li><b>Always visible</b> - Always display menu for Guests and Admin Users. It is visible </li>
+						<li><b>Only Visible to Guests</b> - Menu is only displayed for Guests when they visit your website, but not display for Admin Users </li>
+						<li><b>Only Visible to Members</b> - Menu is only displayed for User Members, but not display for Guests</li>
+					</ul>
+				</li>
+				<li>Click save</li>
+			</ol>
+		<h4 id="menu_list">List Style</h4>
+			<div><p><i>List Style</i> is the traditional dropdown-menu style.</p></div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/dropdown3.jpg"/></div>
+			<div><p>We call <i>Parent Level Menu</i> <b>Level 0</b>. Then, next levels are <b>Level 1</b>, <b>Level 2</b>...</p></div>
+			<ol>
+				<li>Add Menu Level 0, Level 1... normally using drag & drop</li>
+				<li>
+					Click on a <i>Menu Level 0 (Parent Level Menu )</i> item and select <b>List Style</b> in <b>Menu Style</b> selectbox (this selectbox is only displayed for Menu Level 0)<br/>
+					<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/list_style_menu1.png"/></div>
+				</li>
+				<li>You can configure <b>Display Logic</b> option to control the appearance of this menu item
+					<ul>
+						<li><b>Always visible</b> - Always display menu for Guests and Admin Users. It is visible </li>
+						<li><b>Only Visible to Guests</b> - Menu is only displayed for Guests when they visit your website, but not display for Admin Users </li>
+						<li><b>Only Visible to Members</b> - Menu is only displayed for User Members, but not display for Guests</li>
+					</ul>
+				</li>
+				<li>Click save</li>
+			</ol>	
+		<h4 id="menu_preview_mode">Preview Mode</h4>
+			<div>The Preview mode looks like below figure. In this mode, visitors will see latest posts in a category or a tag</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/preview_menu.jpg"/></div>
+			<div><p> </p></div>
+			<ol>
+				<li>In this mode, menu only has 2 levels (Level 0 and Level 1). <i>Level 1</i> MUST BE one of the following type: Categories, Tags, Posts, Pages and WooCommerce/JigoShop Product Categories</li>
+				<li>Click on <i>Level 0</i> menu item and  select <b>Preview Mode</b> in <b>Menu Style</b> (Menu Style is displayed for Menu Level 0)<br/>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/menu4.png"/></div>
+				</li>
+				<li>You can configure <b>Display Logic</b> option to control the appearance of this menu item
+					<ul>
+						<li><b>Always visible</b> - Always display menu for Guests and Admin Users. It is visible </li>
+						<li><b>Only Visible to Guests</b> - Menu is only displayed for Guests when they visit your website, but not display for Admin Users </li>
+						<li><b>Only Visible to Members</b> - Menu is only displayed for User Members, but not display for Guests</li>
+					</ul>
+				</li>
+				<li>Click save</li>
+			</ol>
+</section>
+<section id="theme_options">
+	<h3>Theme Options</h3><hr class="notop">
+<div>TrueMag comes with a lot of options to help you totally customize the look & feel of your site. Go to <b>Appearance > Theme Options</b> to configure.<br/><br/> There are settings for <b>General</b>, <b>Colors</b>, <b>Fonts</b>, <b>Main Navigation</b>, <b>Front Page</b>, <b>Single Post/Video</b>, <b>Single Page</b>, <b>Blog</b>, <b>Category</b>, <b>Headline Section</b>, <b>Search</b>, <b>404</b>, <b>Advertising</b>, <b>Social Account</b>, <b>Social Sharing</b> and <b>Theme Update</b>. It is quite straight-forward to learn the use of these sections</div>
+<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/10.png"/></div>
+</section>
+<section id="shortcodes">
+	<h3>Shortcodes & Visual Composer</h3><hr class="notop">
+<div>When TrueMag-Shortcodes plugin is installed, you will get Visual Composer mode and a full list of shortcodes. Visual Composer is a great plugin which helps you to visually build page layout. You can find full documentation of Visual Composer in <b>[Documentation\Visual Composer]</b> folder</div>	
+<div>&nbsp;</div>
+<div class="fr"><img alt="" src="assets/img/loading.gif" data-src="assets/images/13.png"/></div><br/>
+<div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/14.png"/></div><br/>
+<div class="clear"><!-- --></div>
+	<div>TrueMag has a great bunch of built-in shortcodes. Below is list of TrueMag shortcodes:</div>
+	<div>&nbsp;</div>
+<div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/11.png"/></div>
+<div class="fr"><img alt="" src="assets/img/loading.gif" data-src="assets/images/12.png"/></div>
+<div class="clear"><!-- --></div>
+<div id="tabs">
+<ul>
+<li><a href="#tabs-1">1. Smart Content Box</a></li>
+<li><a href="#tabs-2">2. Carousel</a></li>
+<li><a href="#tabs-3">3. Member</a></li>
+<li><a href="#tabs-4">4. Icon Box</a></li>
+<li><a href="#tabs-5">5. Headline</a></li>
+<li><a href="#tabs-6">6. Testimonial</a></li>
+<li><a href="#tabs-7">7. Alert</a></li>
+<li><a href="#tabs-8">8. CheckList</a></li>
+<li><a href="#tabs-9">9. Button</a></li>
+<li><a href="#tabs-10">10. Tooltip</a></li>
+<li><a href="#tabs-11">11. Dropcap</a></li>
+</ul>
+<div id="tabs-1">
+<h2>Smart Content Box</h2>
+<p><img alt="" src="assets/img/loading.gif" data-src="assets/images/scb.png"/>
+</p>
+
+</div>
+<div id="tabs-2">
+<h2>Carousel</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-carousel.png"/>
+</div>
+<div id="tabs-3">
+<h2>Member (Available when CT-Member plugin is installed)<h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-member.png"/>
+</div>
+<div id="tabs-4">
+<h2>Icon Box<h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-iconbox.png"/>
+</div>
+<div id="tabs-5">
+<h2>Headline</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-headline.png"/>
+</div>
+<div id="tabs-6">
+<h2>Testimonial</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-testimonial.png"/>
+</div>
+<div id="tabs-7">
+<h2>Alert</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-alert.png"/>
+</div>
+<div id="tabs-8">
+<h2>CheckList</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-checklist.png"/>
+<p>Checklist can be added using classic editor (OR you can add a text box shortcode to a row by using Visual Composer)<br>
+Step 1: In classic editor panel, use checklist button to add checklist shortcode. There are 2 types of checklist shortcode for you. (See image bellow)<br><br/>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/37.png"/><br><br/>
+After step 1, you will have the code for checklist as<br>
+<textarea cols="120">[checklist id="checklist_6" icon="icon-check"][/checklist]</textarea>
+<br>
+Step 2: Add Content by using ul tag (see image bellow)<br>
+<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-checklist-2.png"/></div>
+</div>
+<div id="tabs-9">
+<h2>Button</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-button.png"/>
+</div>
+<div id="tabs-10">
+<h2>Tooltip</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-tooltip.png"/>
+</div>
+<div id="tabs-11">
+<h2>Dropcap</h2>
+<img alt="" src="assets/img/loading.gif" data-src="assets/images/shortcode-dropcap.png"/>
+</div>
+</div>
+<a href="#">Update soon...</a>
+</section>
+
+<section id="smart_content_box">
+	<h3>How to use Smart Content Box</h3><hr class="notop">
+<p><b></b></p>
+<p><b>Step 1:</b> Go to <b>Pages &#8594; Add New &#8594; Backend Editor </b>to  configure, After that choose <b>“Add element”</b> </p>
+<div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/46.png"/></div><br/>
+<div class="clear"><!-- --></div>
+<p> <br>
+<b>Step 2:</b> Go to<b> Smart Content Box</b> </p>
+<p></p>
+<div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/47.png"/></div><br/>
+<div class="clear"><!-- --></div>
+<p> </p> <br>
+<p><b>Step 3:</b> Enter values for the following parameters:</p>
+<ul>
+  <li><b>Title: </b> Describes a category of names</li>
+  <li><b>Layout:</b> There are 5 settings of layout. You can  one of  these types of layout to display  posts 
+    <ul>
+<p>&#8226; <b>Grid:</b>  Displays posts according to in form of grid, just  shows images without description <br>
+  <br>
+  <div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/51.png"/></div><br/>
+<div class="clear"><!-- --></div>
+
+  &#8226; <b>Small carousel:</b> Lists all of the  descriptive images of posts <br>
+  <div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/50.png"/></div><br/>
+<div class="clear"><!-- --></div>
+
+  &#8226; <b>Medium carousel:</b> Displays descriptive  images above and descriptive texts below <br>
+  <br>
+  <div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/52.png"/></div><br/>
+<div class="clear"><!-- --></div>
+
+  &#8226; <b>Medium carousel with Navigation:</b>  Displays images and the title of posts in the form of sliding posts <br>
+  <div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/53.png"/></div><br/>
+<div class="clear"><!-- --></div>
+
+  &#8226; <b>Single:</b>  Displays as single image text on the left and the  description on the right </p>
+  <div class="fl"><img alt="" src="assets/img/loading.gif" data-src="assets/images/49.png"/></div><br/>
+<div class="clear"><!-- --></div>
+<p> </p> <br> </ul></li></ul>
+<ul>
+  <li><b>Column</b></li>
+  <li><b>Row</b></li>
+  <li><b>Condition</b>
+<ul>
+<p>&#8226; <b>Latest:</b> Shows the latest posts<br>
+  &#8226; <b>Most Viewed:</b> Shows the most viewed posts<br>
+  &#8226; <b>Most Liked:</b> Shows the most liked posts<br>
+  &#8226; <b>Most commented:</b> Shows the most commented  posts<br>
+  &#8226; <b>Title:</b> Order by title alphabetically<br>
+  &#8226; <b>Modified:</b> Ordered by the last modified  date<br>
+  &#8226; <b>Random:</b> Shows the posts randomly</p>
+</ul></li></ul>
+<ul>
+  <li><b>IDs</b></li>
+  <li><b>Number of   Slides</b></li>
+  <li><b>Categories:</b> To  choose portfolio of posts and displays</li>
+  <li><b>Tags:</b> To fill in the tags of posts</li>
+  <li><b>Orderby:</b>  Arranges posts in order of ascending or descending</li>
+  <li><b>Url-viewall:</b> Inserts your links to the affiliate  of any sites </li>
+  <li><b>Label for Url-viewall</b></li>
+  <li><b>Show title:</b> Displays  the  post&rsquo;s title</li>
+  <li><b>Show excerpt:</b> Displays  the post&rsquo;s excerpt</li>
+  <li><b>Rating Value:</b> Displays  rating value when you vote for the post</li>
+  <li><b>Show Duration:</b> Displays  the duration of post</li>
+  <li><b>Show view count:</b> Displays   the  number of  viewers, one click is considered as one view</li>
+<li><b>Show comment count:</b> Displays  the number of  viewers&rsquo; comments</li>
+  <li><b>Show like count:</b> Displays the number of viewers&rsquo; like</li>
+<li><b>Show author:</b> Only uses for Medium carousel and  Single style</li>
+  <li><b>Show date:</b> Only uses for Medium carousel and  Single style</li>
+  <li><b>Number of excerpt to show</b></li>
+  <li><b>Enable Quick view info:</b> Quick View Info / Quick  View Video Hover Popup</li>
+</ul>
+</section>
+<section id="setting_homepage">
+	<h3>Setting HomePage & Blog</h3><hr class="notop">
+<div><b>If you haven't installed sample data, then you can follow this section</b>. When first installed, your home page is blog page. To set up home page, follow the steps below</div>
+<div>&nbsp;</div>
+<div><b>Step 1.</b>&nbsp;Create a page named Home Page (or whatever you like). Go to <b>Pages > Add New</b>.</div>
+<div><b>Step 2.</b>&nbsp;Disable Comments on this page</div>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/31.png"/></div>
+<div>
+<br/>
+If you do not see <b>Discussion</b> box, click on <b>Screen Options</b> grips on top of page and check <b>Discussion</b><br/>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/32.png"/></div>
+<div class="clear"><!-- --></div>
+</div>
+<div><b>Step 3.</b>&nbsp;Build content of home page using shortcodes and other elements</div><br/><br/>
+<div><b>Step 4.</b>&nbsp;Go to <b>Appearance > Theme Options > Front Page</b>. In this tab, you set-up <b>Header Style</b> for Home Page Header and other conditions to query items for Header</div>
+<br/><br/>
+<div><b>Step 5.</b>&nbsp;Go to <b>Settings > Reading</b> and set <b>Front page displays</b> to <b>A static page</b>. Then set <b>Front Page</b> to the page you created in previous step (Home Page)</div>
+<div>&nbsp;</div><br/>
+<h5>To set up blog, follow the steps below</h5>
+<div>&nbsp;</div>
+<div><b>Step 1.</b>&nbsp;Create a page named Blog (or whatever you like)</div>
+<div>&nbsp;</div>
+<div><b>Step 2.</b>&nbsp;Go to <b>Settings > Reading</b> and set <b>Front page displays</b> to <b>A static page</b>. Then set appropriate <b>Posts Page</b> to the page you created in previous step (Blog)	</div>
+<div>&nbsp;</div>
+<div><b>Step 3.</b>&nbsp;Go to <b>Appearance > Theme Options > Blog</b> to configure your blog page.</div>
+<div>&nbsp;</div>
+<div><b>Step 4.</b>&nbsp;Go to <b>Appearance > Widgets</b> and drag widgets to <b>Main Sidebar</b> or <b>Blog Sidebar</b> if <b>Blog Layout</b> is set to <b>Sidebar Left</b> or <b>Sidebar Right</b> layout in previous step.<br/>If there is any widget in <b>Blog Sidebar</b>, it will be used in stead of <b>Main Sidebar</b></div>
+<div>&nbsp;</div>
+</section>
+<section id="config_header">
+	<h3>Configure Header Style</h3><hr class="notop">
+	<div>There are two ways to configure Header Style</div>
+	<ul>
+		<li> Configure in Pages</li>
+		<li> Configure in Theme Options  if you choose Hesder Style to be Default</li>
+	</ul>
+	<div>Use Header Slyle with the following options</div>
+
+	<h4 id="config_header_v1"><b>Configure Header Style with Big Carousel</b></h4>
+			<div>You need to follow these steps:</div>
+				<ul>
+					<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Big Carousel"</b> in <b>Header Style</b> box and save.</li>
+					<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+				</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v1.png"/>
+			</div>
+		
+			<h4 id="config_header_v2"><b>Configure Header Style with Sidebar (Boxed Carousel)</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Sidebar"</b> in <b>Header Style</b> box.</li>
+
+				<li><b>Step 2</b>: Go to <b>Appearance</b> &gt; <b>Widgets</b> &gt; Drag widget name <b>"Text" or "Visual Editor"</b>(If possible) in <b>"Main Top Sidebar"</b>. enter HTML code in widget "Text" or use "Smart Content Box" in widget "Visual Editor" and save it.</li>
+
+				<li><b>Step 3</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+		
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v2.png"/>
+			</div>
+		
+			<h4 id="config_header_v3"><b>Configure Header Slyle with Sidebar (FullWidth Carousel)</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Sidebar"</b> in <b>Header Style</b> box.</li>
+
+				<li><b>Step 2</b>: Go to <b>Appearance</b> &gt; <b>Widgets</b> &gt; Drag widget name <b>"Text" or "Visual Editor"</b>(If possible) in <b>"Main Top Sidebar"</b>. enter HTML code in widget "Text" or use "Smart Content Box" in widget "Visual Editor" and save it.</li>
+
+				<li><b>Step 3</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v3.png"/>
+			</div>
+		
+			<h4 id="config_header_v4"><b>Configure Header Slyle with Metro Carousel (Metro Slider)</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul><li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Metro Carousel"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v4.png"/>
+			</div>
+	
+			<h4 id="config_header_v5"><b>Configure Header Slyle with Siderbar use Revolution Slider</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Sidebar"</b> in <b>Header Style</b> box.</li>
+
+				<li><b>Step 2</b>: Go to <b>Appearance</b> &gt; <b>Widgets</b> &gt; Drag widget named <b>"Revolution Slider"</b> in <b>"Main Top Sidebar"</b>. Select a slider in this widget and save it.</li>
+
+				<li><b>Step 3</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v5.png"/>
+			</div>
+		
+			<h4 id="config_header_v6"><b>Configure Header Slyle with Classy Slider 2(Horizon)</b> </h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Classy Slider 2(Horizon)"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v6.png"/>
+			</div>
+		
+			<h4 id="config_header_v7"><b>Configure Header Slyle with Classy Slider 3(Horizon & Big Image)</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul><li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Classy Slider 3(Horizon & Big Image)"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v7.png"/>
+			</div>
+		
+			<h4 id="config_header_v8"><b>Configure Header Slyle with Video Slider</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul><li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Video Slider"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v8.png"/>
+			</div>
+		
+			<h4 id="config_header_v9"><b>Configure Header Slyle with Classy Slider( Vertical)</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul><li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Classy Slider( Vertical)"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v9.png"/>
+			</div>
+		
+			<h4 id="config_header_v10"><b>Configure Header Slyle with Amazing Slider</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Amazing Slider"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/v10.png"/>
+			</div>
+		
+			<h4 id="config_header_image"><b>Configure Header Slyle with HomePage Photo</b></h4>
+			<div>You need to follow these steps:</div>
+				<ul><li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Sidebar"</b> in <b>Header Style</b> box.</li>
+
+					<li><b>Step 2</b>: Go to <b>Appearance</b> &gt; <b>Widgets</b> &gt; Drag widget named <b>"Text"</b> in <b>"Main Top Sidebar"</b>. enter HTML code in widget "Text" and save it.</li>
+
+					<li><b>Step 3</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+				</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/homepage-with-photo.png"/>
+			</div>
+		
+			<h4 id="config_header_darklight"><b>Configure Header Slyle with Light Version</b></h4>
+			<div>You need to follow these steps:</div>
+			<ul>
+				<li><b>Step 1</b>: Go to <b>Pages</b> &gt; <b>Add New</b> Page. In Template box, choose <b>"Front Page"</b> and choose <b>"Big Carousel"</b> in <b>Header Style</b> box and save.</li>
+				<li><b>Step 2</b>: Go to <b>Appearance</b> &gt; <b>Theme Options</b> &gt; <b>Main Navigation</b> choose <b>Dark</b> in <b>Top Navigation Style</b></li>
+			
+				<li><b>Step 3</b>: If you want that page to be Homepage, go to <b>Settings &gt; Reading &gt; A Static Page &gt; select Front Page</b>.</li>
+			</ul>
+			<div class="full">
+				<img alt="" src="assets/img/loading.gif" data-src="assets/images/truemag-light-color.png"/>
+			</div>
+</section>
+
+<section id="theme_purpose">
+<h3>Theme Purpose: Video theme-mode and Magazine theme-mode</h3>
+<hr class="notop">
+<div>TrueMag can work as a video site or magazine site. Go to <b>Appearance > Theme Options > General > Theme Purpose</b> to change this mode. All "Videos" text will be replaced by "Posts" and vice-versa. The most different thing between these two modes is when you use <b>Page Template</b>, <b>Smart Content Box</b> shortcode and the <b>Category-Top Carousel</b> in Category page. See below figures:</div>
+<br/><br/>
+<div class="fl"><h5>Blog Listing</h5><img src="assets/img/loading.gif" data-src="assets/images/blog-mod.png"/></div>
+<div class="fr"><h5>Video/Grid Listing</h5><img src="assets/img/loading.gif" data-src="assets/images/grid-mod.png"/></div>
+<div class="clear"><!-- --></div>
+<br/><br/>
+<div>Style of main Posts Page can be set in <b>Appearance > Theme Options > Blog</b>. If you have <b>Page Template</b> to display posts, note that:
+<ul>
+	<li><b>In Video theme-mode: </b>Video/Grid Listing template only displays video (post-format) posts and Blog Listing template only displays the other post-format posts (Standard, Gallery and Audio).</li>
+	<li><b>In Magazine theme-mode: </b>Both Video/Grid Listing and Blog Listing template display all kind of post-formats (Standard, Video, Gallery, and Audio)</li>
+</ul>
+</div>
+<div>Same thing applies to <b>Smart Content Box (SCB)</b> shortcode. In <b>Video theme-mode</b>, SCB shortcode and Category-Top Carousel only display video (post-format) posts. In <b>Magazine theme-mode</b>, they display everything (Standard, Video, Gallery and Audio)</div><br/>
+<div>See next section, <a href="#page_page">Pages & Posts</a>, for Page Template.</div>
+</section>
+
+<section id="category">
+<h3>Category Page</h3>
+<hr class="notop"/>
+<div>Category Page can be in Blog Listing or Video/Grid Listing mode (see <a href="#theme_purpose">Theme Purpose</a>. When adding/editing category, you can choose Category Layout as "Default" (use setting in Theme Options), "Video/Grid Listing" or "Blog Listing". You can also control <b>Category Header Style</b> using numberous options in Category Edit page. It is required to install <a href="http://wordpress.org/plugins/categories-images/" target="_blank">Category Images</a> plugin first</div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/category-settings.png"/>
+</div>
+<div>
+There are 4 options for Category Header Style: Default (use setting in Theme Options), Carousel (show most popular posts in category), Banner Image (use uploaded image) and Do Not Show (hide header). You can also set Height and Link for Header.
+</div>
+<br/><br/>
+<div class="fl">
+	<h5>Carousel Header</h5>
+	<img src="assets/img/loading.gif" data-src="assets/images/category-header-carousel.png"/>
+</div>
+<div class="fr">
+	<h5>Banner Header</h5>
+	<img src="assets/img/loading.gif" data-src="assets/images/category-header-banner.png"/>
+</div>
+<div class="clear"><!-- --></div>
+</section>
+<section id="page_post">
+	<h3>Pages & Posts (Videos)</h3><hr class="notop">
+<div><b>Before reading next, see document for Visual Composer to learn how to use Rows & Columns to build page!</b></div><br/><br/>
+<div class="fr"><img alt="" src="assets/img/loading.gif" data-src="assets/images/16.png"/><br/><br/><img alt="" src="assets/img/loading.gif" data-src="assets/images/17.png"/></div>
+
+<div>Although common settings for Pages can be done in <b>Appearance > Theme Options > Single Page & Single Post/Video</b>, each page/post can have its specific settings.</div>
+<div>When adding new page, there are 2 sections to setup: Page Attributes & Page Settings</div>
+<div><h5><b>Page Attributes</b></h5>&nbsp;Choose Page Template for this Page. There are 4 templates available</div>
+<ul>
+	<li><b>Default Template</b> Page will have the same layout which is set in <b>Appearance > Theme Options > Single Page</b></li>
+	<li><b>Front Page</b> Page will have layout of Home Page</li>
+	<li><b>Full Width (no-sidebar)</b> Page will be full width. There is no column for sidebar</b></li>
+	<li><b>Left Sidebar</b> Page will have left sidebar column. Go to <b>Appearance > Widgets</b> and drag widgets to <b>Main Sidebar</b>. The width-ratio between main column and sidebar column is defined in <b>Theme Options > General</b></li>
+	<li><b>Right Sidebar</b> Page will have right sidebar column. Go to <b>Appearance > Widgets</b> and drag widgets to <b>Main Sidebar</b>. The width-ratio between main column and sidebar column is defined in <b>Theme Options > General</b></li>
+	<li><b>Blog Listing</b> If you choose this template, page will display all posts (in Magazine theme-mode) or all non-video posts (in Video theme-mode) in listing-style layout</li>
+	<li><b>Video Listing</b> If you choose this template, page will display all posts (in Magazine theme-mode) or all video-format posts (in Video theme-mode) in grid-style layout</li>
+</ul>
+<div><h5><b>Page Settings</b></h5><ul>
+	<li><b>Header Style</b> This setting is effective when Page Template is <b>Front Page</b></li>
+</ul>
+</div>
+<div><h5><b>Post Format</b></h5>TrueMag supports Standard, Video, Gallery and Audio Post Format
+</div>
+<div><h5><b>Post Settings</b></h5>
+<ul>
+	<li><b>Video URL</b> Paste Video URL from YouTube, Vimeo or may other video networks (like Dribbble) here. Feature Image, Title, Description and Duration of video will automatically be fetched (YouTube & Vimeo supported), so you don't need to enter these information. After fetching, you can edit these information or choose not to fetch again by checking <b>Do Not Fetch</b> checkbox<br/><br/>
+	<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/do-not-fetch.png"/></div>
+	</li>
+	<li><b>Video File</b> If you self-host video files, enter video file URL here</li>
+	<li><b>Video Code</b> For other video networks, you can use embed code, such as &lt;object&gt;, &lt;embed&gt;, &lt;iframe&gt;</li>
+	<li><b>Duration</b> is the duration of video, in minutes</li>
+	<li><b>Video Layout</b> Video Player can be full width (Full Width layout) and in left column (Inboxed layout)</li>
+	<li><b>Page Layout</b> If this is set to <b>Default</b>, it follows setting in <b>Appearance > Theme Options > Single Post/Video > Single Post Layout</b>. If set (other than <b>Default</b>), it will override default setting</li>
+</ul>
+</div>
+
+<div class="clear"><!-- --></div>
+</section>
+<section id="rating">
+<h3>TrueMag Rating plugin</h3>
+<hr class="notop"/>
+<div>TrueMag recommends <a target="_blank" href="http://codecanyon.net/item/taqyeem-wordpress-review-plugin/4558799?ref=cactusthemes">Taqyeem - WordPress Review Plugin</a>. This is a great plugin to add rating feature to your website. If you just like a simple (but useful) alternative, <b>TrueMag Rating plugin</b> is a choice (free, packed with TrueMag). You will find it in <b>/Installation Files/Plugins/plg-truemag-rating.zip</b>. Once installed, there is a setting page for it in admin</div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/rating.png"/>
+</div>
+<div>Once you have set some default things here, in Post editing page, you will see <b>Review</b> where you can configure more settings or override default settings</div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/rating-post.png"/>
+</div>
+<div>Here is the final results: the rating meta box for a post</div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/rating-box.png"/>
+</div>
+</section>
+<section id="channel">
+<h3>Cactus Channel plugin</h3>
+<hr class="notop"/>
+<h4 id="channel_manage">Channel Management</h4>
+<div>Added since True Mag 4.0, <b>Cactus Channel plugin</b> adds the ability to create videos channel and playlist for administrator. Registered Users can subscribe favourite channels to follow the latest videos in specific categories. A channel can contain multiple videos and playlists. A playlist in turn can contain multiple videos. <b>To have playlist feature, please update "Cactus-Video" plugin to the latest version</b>. Below is a screenshot of a sample channel</div>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/channel.jpg"/>
+</div>
+<p>To create a new channel, from main admin navigation, go to <b>Channel > Add New Channel</b>. To add a video to a channel, edit that video post and assign a channel for the post. Similarly, to add a playlist to a channel, edit the playlist and assign a channel for the playlist</p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/add-video-channel.jpg"/>
+</div>
+<p>To enable/disable discussion for a channel, uncheck the "Allow Comments" checkbox in "Discussion" box in <b>Channel Edit</b> page (if you do not see the "Discussion" box, scroll to top of the page and click on "Screen Options" button, then check the "Discusson" checkbox in the opening panel)</p>
+
+<h4 id="channel_subscribe">Channel Subscription - "Subscribed Channels" page template</h4>
+<p>Registered Users are able to subscribe a channel to follow latest videos in that channel. To create a <b>Subscribed Channels</b> page, go to <b>Pages > Add New Page</b> and choose <b>Subscribed Channels</b> page template. Name this page anything you want. Note that this page can only be accessed by logged-in users. When an user visits this page, he/she will see latest videos from their subscribed channels</p>
+<p>Now go to <b>Menus</b> management page and add a menu item that links to that page. Use <b>Display Logic</b> to make this menu item <b>Only visible to Members</b></p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/subscribed-channel.jpg"/>
+</div>
+<h4 id="channel_settings">Channel Settings</h4>
+<p>From main admin navigation, go to <b>Cactus Channel Settings</b></p>
+<ul>
+<li>
+<p><b>Channel Slug</b></p>
+<p>Change single Channel slug. Remember to save the permalink settings again in <b>Settings > Permalinks</b></p>
+</li>
+<li>
+<p><b>Channel Listing page</b></p>
+<p>Assign Channel Listing page to a page. By default, if the <b>Channel Slug</b> is <b>channel</b>, the Channel Listing page will be <b>http://yoursite.com/channel</b>. If you create a page with slug <b>all-channels</b> and set this option to that page, the Channel Listing page will be <b>http://yoursite.com/all-channels</b>. Remember to save the permalink settings again in Settings > Permalinks</p>
+</li>
+<li>
+<p><b>Single Channel Sidebar</b></p>
+<p>Select sidebar position for all single channel pages</p>
+</li>
+</ul>
+</section>
+<section id="playlist">
+<h3>Video Playlist</h3>
+<h4 id="playlist_manage">Video Playlist Management</h4>
+<p>Added since True Mag 4.0 (<b>True Mag - Playlist</b> plugin), administrators are now able create video playlists. A playlist is a collection of videos which allow users to view all at once (in a video slider). To create a playlist, from main admin navigation, go to <b>Playlist > Add New Playlist</b>.</p>
+<p>Below is a screenshot of a sample playlist</p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/playlist.jpg"/>
+</div>
+<p>To add a video to a playlist, edit that video post and assign a playlist for the post.</p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/add-video-playlist.jpg"/>
+</div>
+<p>A playlist may or may not belong to a Video Channel (require <b>Cactus Channel</b> plugin to be installed). To add a playlist to a channel, edit that playlist and assign a channel for it</p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/add-video-channel.jpg"/>
+</div>
+<p>When viewing a video post which belongs to a playlist, the post layout turns into playlist layout</p>
+<div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/single-video-playlist.jpg"/>
+</div>
+<h4 id="playlist_settings">Video Playlist Settings</h4>
+<p>From main admin navigation, go to <b>Cactus Playlist Settings</b> page. </p>
+<ul>
+<li>
+<p><b>Playlist Slug</b></p>
+<p>Change single playlist slug. Remember to save the permalink settings again in <b>Settings > Permalinks</b></p>
+</li>
+<li>
+<p><b>Single Playlist Sidebar</b></p>
+<p>Assign Playlist Listing page to a page. By default, if the <b>Playlist Slug</b> is <b>playlist</b>, the Playlist Listing page will be <b>http://yoursite.com/playlist</b>. If you create a page with slug <b>all-playlists</b> and set this option to that page, the Playlist Listing page will be <b>http://yoursite.com/all-playlists</b>. Remember to save the permalink settings again in Settings > Permalinks</p>
+</li>
+<li>
+<p><b>Single Channel Sidebar</b></p>
+<p>Select sidebar position for all single playlist pages</p>
+</li>
+</ul>
+</section>
+<section id="other_settings">
+<h3>Other Features</h3>
+<hr class="notop"/>
+
+<h4 id="other_settings_ads">Advertising Spaces</h4>
+<div>You can add advertising spaces (Google Adsense banners, text ads OR your own banners) to, basically, everywhere on this theme beside 6 pre-defined ad spaces (Top ads 1, Top ads 2, Body ads 1, Body ads 2, Foot ads, Recuring ads). To add Ads in predefining positions, you need to set in <b>Appearance > Theme Options > Advertising</b> with the following attributes </div>
+<ul>
+	<li><b>Google AdSense Publisher ID</b>: Enter your Google AdSense Publisher ID</li>
+	<li><b>Top Ads 1 - AdSense Ad Slot ID</b>: If you want to display Adsense in Top Ads 1 section, enter Google AdSense Ad Slot ID here. If left empty, "Top Ads 1 - Custom Code” will be used.</li>
+	<li><b>Top Ads 1 - Custom Code</b>: Enter custom code for Top Ads 1 position.<br/><br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/001-top-ad-1.jpg"/><br/><br/>
+	</li>
+	<li><b>Top Ads 2 - AdSense Ad Slot ID</b>: If you want to display Adsense in Top Ads 2 section, enter Google AdSense Ad Slot ID here. If left empty, "Top Ads 2 - Custom Code” will be used.</li>
+	<li><b>Top Ads 2 - Custom Code</b>: Enter custom code for Top Ads 2 position.<br/><br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/002-top-ad-2.jpg"/><br/><br/>
+	</li>
+	<li><b>Body Ads 1 - AdSense Ad Slot ID</b>: If you want to display Adsense in Body Ads 1 section, enter Google AdSense Ad Slot ID here. If left empty, "Body Ads 1 - Custom Code” will be used.</li>
+	<li><b>Body Ads 1 - Custom Code</b>: Enter custom code for Body Ads 1 position.<br/><br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/003-body-ad-1.jpg"/><br/><br/>
+	</li>
+	<li><b>Body Ads 2 - AdSense Ad Slot ID</b>: If you want to display Adsense in Body Ads 2 section, enter Google AdSense Ad Slot ID here. If left empty, "Body Ads 2 - Custom Code” will be used.</li>
+	<li><b>Body Ads 2 - Custom Code</b>: Enter custom code for Body Ads 2 position <br/><br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/004-body-ad-2.jpg"/><br/><br/>
+	</li>
+	<li><b>Foot Ads - AdSense Ad Slot ID</b>: If you want to display Adsense in Foot Ads section, enter Google AdSense Ad Slot ID here. If left empty, "Foot Ads - Custom Code” will be used.</li>
+	<li><b>Foot Ads - Custom Code</b>: Enter custom code for Foot Ads position.<br/><br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/005-foot-ad.jpg"/><br/><br/>
+	</li>
+	<li><b>Recuring Ads - AdSense Ad Slot ID</b>: If you want to display Adsense in Recuring Ads section, enter Google AdSense Ad Slot ID here. If left empty, "Recuring Ads - Custom Code” will be used</li>
+	<li><b>Recuring Ads- Custom Code</b>: Enter custom code for Recuring Ads position. This Ad will appear after each Ajax paginated-page in blog listing, categories or search result pages.<br/>
+	<img src="assets/img/loading.gif" data-src="assets/images/006-recuring-ad.jpg"/><br/><br/>
+	</li>
+	<li><b>Single Content Ads - AdSense Ad Slot ID</b>: If you want to display Adsense in Single Content Ads section, enter Google AdSense Ad Slot ID here. If left empty, "Single Content Ads - Custom Code” will be used</li>
+	<li><b>Single Content Ads - Custom Code</b>: Enter custom code for Single Content Ads position.</li>
+	<li><b>Left Side Ads - AdSense Ad Slot ID</b>: If you want to display Adsense in Left Side Ads section, enter Google AdSense Ad Slot ID here. If left empty, "Left Side Ads - Custom Code” will be used.</li>
+	<li><b>Left Side Ads - Custom Code</b>: Enter custom code for Left Side Ads position.</li>
+	<li><b>Right Side Ads - AdSense Ad Slot ID</b>: If you want to display Adsense in Right Side Ads section, enter Google AdSense Ad Slot ID here. If left empty, "Right Side Ads - Custom Code” will be used.</li>
+	<li><b>Right Side Ads - Custom Code</b>: Enter custom code for Right Side Ads position.</li>
+	<li><b>Side Ads Width</b>: Enter your side ads (Left & Right) width (Ex: 100px)</li>
+</ul>
+
+<h4 id="other_settings_advanced">Advanced Search Form</h4>
+<div>Truemag package includes premium plugin <a href="http://codecanyon.net/item/advanced-search-form/4087881" target="_blank">Advanced Search Form (ASF)</a>. The installation file is in <b>/Installation Files/Plugins/plg-advanced-search-form.zip</b>. Following these steps to integrate the ASF into TrueMag:
+<ul>
+	<li><b>Step 1. </b>Install ASF plugin</li>
+	<li><b>Step 2. </b>Go to <b>Appearance > Widgets</b> and drag <b>Advance Search Form</b> widget into <b>Search Box sidebar</b>. Check "Show categories list" and "Search suggestion" checboxes. Leave "Title" empty.</li>
+	<li><b>Step 3. </b>If you would like to configure advance things, go to <b>ASF Settings</b> page (look for menu item in the left).</li>
+</ul>
+</div>
+<h4 id="other_settings_headline">Headline section</h4>
+<div>
+	By default (first installed), <b>Headline section</b> will be displayed on top of page (below Logo). Configuration for Headline is done in <b>Appearance > Theme Options > Headline Section</b>. <br/><br/>
+	If you want to replace this section, go to <b>Appearance > Widgets</b> and drag other widget into <b>Headline sidebar</b>. Note that Headline Section and Headline Sidebar is displayed only in Home Page.<br/>
+	<div class="full">
+		<img src="assets/img/loading.gif" data-src="assets/images/headline.png"/>
+	</div>
+</div>
+<h4 id="other_settings_pathway">Breadcrumb / Pathway</h4>
+<div>Breadcrumb (or Pathway) is displayed only in inner pages (not Home Page). If you want to replace default breadcrumb, go to <b>Appearance > Widgets</b> and drag something into <b>Pathway sidebar</b><br/>
+<div class="full">
+		<img src="assets/img/loading.gif" data-src="assets/images/pathway.png"/>
+	</div>
+</div>
+<h4 id="other_settings_playlist">Favourite Videos - User Playlist</h4>
+<div>Check this demo: <a href="http://demo.cactusthemes.com/truemag/members/vantrimaster/playlist/" target="_blank">Playlist Demo</a>. To enable playlist feature, you will need to install <a href="https://wordpress.org/plugins/wp-favorite-posts/" target="_blank">WP Favorite Posts</a>. Note that Playlist feature only works with BuddyPress enabled. <br/></div>
+<div>You can then configure Playlist settings in <b>Appearance > Theme Options > BuddyPress</b><br/></div>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/feature-playlist.png" alt=""/></div>
+<h4 id="other_settings_google">Google Adsense</h4>
+<div>There are several default positions for using Google Adsense in TrueMag. It is set up in <b>Theme Options > Advertising</b>. You can, however, add Google Adsense in any places using the following shortcode<br/><br/>
+<pre style="color:#ff0000">[adsense pub="" slot="" class=""]</pre>
+<br/>
+<b>pub</b> is Publisher ID<br/>
+<b>slot</b> is Slot ID<br/>
+<b>class</b> (optional) is CSS Class that you want to assign to the adsense box
+<br/><br/>
+
+</div>
+<h4 id="other_settings_submit">User Submit Post</h4>
+<div>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/setting-user-submit-video.jpg"/></div>
+<div>This feature requires <a href="#">Contact Form 7</a> plugin to work. To configure this feature:
+<ul>
+	<li>1. Create a contact form with fields having these names:
+		<ul>
+			<li>video-title</li>
+			<li>video-description</li>
+			<li>video-url</li>
+			<li>video-excerpt</li>
+			<li>tag</li>
+		</ul>
+		Use shortcode <b>[category]</b> to display list of categories so users can choose which category to submit. Go to <b>Theme Options > User Submit Post</b> for more settings. Below is a sample contact form for this feature<br/><br/>
+		<div>
+			<!-- sample code --><textarea cols="100" rows="5">Please fill in all information bellow to submit video.
+<p>Your Email<br />
+[email* your-email] </p>
+<p>Video URL<br />
+[url* video-url] </p>
+<p>Video Title<br />
+[text* video-title] </p>
+<p>Video Description<br />
+[textarea* video-description] </p>
+<p>Tags<br />
+[text* tag] </p><br>
+<p>Categories<br />
+[category] </p><br>
+<p>[submit "SUBMIT"]</p>
+			</textarea><!-- end sample code -->
+		</div><br/>
+	</li>
+	<li>
+		2. Copy the contact form shortcode, for example <span style="color:red">[contact-form-7 id="325" title="Suggest video"]</span>. Go to <b>Appearance > Widgets </b> and drag a text widget into <b>User Submit Video Sidebar</b>. Paste the contact form shortcode into widget content.<br/><br/>
+	</li>
+	<li>
+		3. Go to <b>Appearance > Theme Options > User Submit Video</b>, change <b>Enable User Submit Video Feature</b> to <b>Enable</b>. You can configure other settings here also.<br/><br/>
+	</li>
+	<li>
+		4. If you want to send an mail (to users) to notify about the acceptance of the submited video, please <b>Enable</b> the feature <b>Notification</b> in <b>Theme Options > User Submit Video</b><br/><br/>
+	</li>
+</ul>
+</div>
+</div>
+<h4 id="other_settings_ads_management">How to use Video Ads Management Plugin</h4>
+	<div> <b>Video Ads Management</b> plugin is a plugin used to insert an advertisement in form of image or video above a video player. This plugin is developed by <b>CactusThemes</b>, it must be installed via uploading. You can find the installation files in the download package.
+	After Video Ads Management plugin is installed, tab <b>Video Ads</b> will be appeared in <b>Theme Options</b> to turn on/turn off advertising function for the entire site.
+	When advertising function is turned on for the entire site, it is default that the advertisment will be randomly taken from a list of Ads.</div>
+	<div><p>In order to configure <b>Video Ads</b>, go to menu <b>Ads Config</b>. In order to manage the advertisement, go to menu <b>Advs</b>. In order to appoint a specific advertisement for a post,  go to <b>Posts</b></p></div>
+	<h5>Create a Video Ads Management</h5>
+	<div style="text-align:center"><iframe width="800" height="470" src="assets/img/loading.gif" data-src="http://www.youtube.com/embed/sPP5tdivrVI" frameborder="0" allowfullscreen></iframe></div><br/>
+	<div>Go to <b>Advs > Add New</b></div><br/>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/image001.png"/></div>
+	<div>Include the following attributes</div>
+		<ul><li><b>Upload Fields</b> - Choose the form of advertisement to be banner or video and configure the advertising's position<br/>
+					<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/image002.png"/></div>
+				<ul><li><b>File advanced upload</b>: Upload advertising image or video( These advertising image or video will be displayed when clicking "Play" video in single video page. If you want the advertisement not to be continued running - Click "Skip Ads" and the main video of Post will be run)</li>
+					<li><b>Video url</b>: Enter URL from YouTube or Vimeo</li>
+					<div><p><b>Note</b>:These advertising image or video will be displayed above video of single video page. When clicking "Play" to see video, the advertisement will appear and automatically run. After number of seconds, "Skip Ads" button will be appeared. When clicking this button, the advertisement will be stopped and the main video of Single video page will be played. If you do not click "Skip Ads" button, the advertisement will completely run, then automatically move to the main video. If Ads is added in two positions <b>File Advanced Upload </b>and<b> Video URL</b>, it will show <b>File Advanced Upload</b>, not show video Ads in <b>Video URL</b></p></div>
+					
+					<li><b>Expiry date</b>: Expiration date of the advertisement</li>
+					<li><b>URL</b>: Appear link when clicking the advertisement</li>
+					<li><b>URL Target</b>: Open advertisement's link at the new window or the current window </li>
+					<li><b>Position</b>: Advertisement's position</li>
+				</ul>
+			</li>
+					
+		</ul>
+	<h5>Video Ads Configuration</h5>
+	<div>Go to <b>Ads Config</b></div><br/>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/image003.png"/></div><br/>
+		<ol><li><b>General</b> - Configure to turn on/turn off, duration for displaying the advertisement<br/>
+		<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/video_ads_general.png"></div>
+				<ul><li><b>Enable Ads</b>: Turn on/Turn off the advertisement</li>
+					<li><b>Show close button after</b>: Display "Turn off Ads" button after the number of seconds you want</li>
+					<li><b>Ads play again after</b>: The advertisement will automatically run after the number of seconds you want</li>
+					<li><b>Close Button Position</b>: The position of "Turn off Ads" button</li>
+				</ul>
+			</li>
+			<li><b>Brand</b> - Ads Logo is located above video player<br/>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/brand.png"/></div>
+				<ul><li><b>Enable Brand</b>: Turn on/ Turn off Ads Logo</li>
+					<li><b>Upload Logo</b>: Upload Ads Logo</li>
+					<li><b>Ads Text</b>: Logo in form of text will be shown when there is no logo image</li>
+					<li><b>Position</b>: Logo's position</li>
+					<li><b>Opacity</b>: The opacity of logo in form of text</li>
+					<li><b>Text color</b>: Choose color for logo in form of text</li>
+				</ul>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/logo_video.jpg"/></div>
+			</li>
+		</ol>
+	<h5>Assign a Video/Image Ads into Single Post Page</h5>
+	<div><b>Step 1</b>: Go to <b>Posts > Add New/ Edit post > Video Ads</b></div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/videoads.png"/></div>
+	<div><b>Step 2</b>: Enter <b>ID</b> in <b>Ads ID</b>, if leave <b>ID</b> empty, ads will be selected randomly from the active <b>Advs</b></div>
+	<div><b>Step 3</b>: click <b>Publish</b> and save</div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/videoads1.png"/></div>
+	<h5>Bulk Set Ads ID</h5>
+	<p>This feature allows admin to set an Ads ID to all posts. Go to <b>Cactus-Video Ads > Bulk Set Ads ID</b> and enter <b>Ads ID</b> in the textfield. That's all</p>
+<h4 id="other_settings_social_locker">OnePress Social Locker Plugin</h4>
+<div><b>OnePress Social Locker Plugin</b> is a plugin used to hide a portion of page's content. The text will be displayed when users "Like, Share" or use Google plus for that text</div>
+
+<div>There are two versions in OnePress Social Locker plugin: <a href="https://wordpress.org/plugins/social-locker/">https://wordpress.org/plugins/social-locker/ </a> (free) and <a href="http://codecanyon.net/item/social-locker-for-wordpress/3667715">http://codecanyon.net/item/social-locker-for-wordpress/3667715</a>(premium) </div>
+<h5>Learn More about Social Locker Plugin</h5>
+
+	<div><p>The Social Locker plugin allows you to use shortcodes in order to lock content. During installation, the plugin created for you the shortcode [sociallocker] named "Default Locker".</p></div>
+	<p>
+		You can create shortcodes for whatever you need them for. For instance, you could create one for locking video players or another one for locking download links. Each shortcode has its own settings.
+	</p>
+	<div>Let's examine how to use the Default Locker.</div>
+	<ol><li><b>Open the editor</b><br>
+			<div>Move to Social Locker -> All Social Locker in the admin menu</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/1_1.png"/></div>
+			<div>Click on the shortcode titled “Default Locker” to open the locker editor</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/2_2.png"/></div>
+		</li>
+		<li><b>Configure the locker</b><br/>
+
+			<ul><li>Set the URL that will receive likes/tweets/plus ones or leave the field empty.</li>
+
+				<li>Set a clear title that attracts attention or creates a call to action (see the example below).</li>
+
+				<li>Describe what the visitor will get after they unlock the content. This is very important, as visitors need to be aware of what they are getting. And please, only promise things you can deliver.
+				<div>Congratulations! The locker is ready to use.</div>
+				<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/3-free.png"/></div>
+				</li>
+			</ul>
+		</li>
+		<li><b>Place the locker shortcode</b><br>
+
+			<div>Decide what content you would like to lock. It might be:</div>
+
+			<ul><li>A download link (for instance, a free graphic, an audio file, video resources, or a printable pdf of your article).</li>
+				<li>A promo code (for instance, a 10% off discount, if the visitor shares your promo page).</li>
+				<li>The end of your article (for instance, you might show the beginning of the article to gain interest, but hide the ending).</li>
+			</ul>
+			<div>Basically, you can hide any content that would be important for visitors who are visiting your site.</div>
+			<div>However, you should never:</div>
+				<ul><li>Lock all of your content, posts or pages.</li>
+					<li>Lock boring content or content that is not interesting.</li>
+				</ul>
+			<div>In other words, don’t try to trick your visitors. If you do, people will become annoyed and will remove the likes/tweets/+1s after unlocking your content, which will not have the desired result.</div>
+
+			<div>Open the post editor for the post where you want to put the locker. Then wrap the content you want to lock within the locker shortcode. For instance: [sociallocker] Locked Content Goes Here [/sociallocker]:</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/5_5.png"/></div>
+			<div>That’s it! Save your post and see it on your site!</div>
+			<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/6_6.png"/></div>
+		</li>
+	</ol>
+	<h5>OnePress Social Locker is compatible with TrueMag in a Single Post page </h5>
+	
+	
+	<div>In order to clock video player in a page, go to <b>Posts > Edit</b> post you want to remove, enter Locker's shortcode into box <b>Social Locker</b> Shortcode</div>
+<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/sociallocker3.jpg"/></div>
+<div>This shortcode can be found in Shortcode column in a list of Lockers management</div>
+<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/sociallocker4.jpg"/></div>
+<h5>OnePress Social Locker is compatible with TrueMag in all Single Post pages </h5>
+<div>  In order to clock the entire content of video in header at all single pages, follow these steps below</div>
+<div><b>Step 1</b>: Go to <b>Social Locker > Alockers > New Locker - Create Social Locker with the following attributes</b></div>
+		<ul><li><b>URL to share</b>: Enter the URL that you want your visitors to like, tweet or +1. Or, you can leave this field empty to use the URL of the page where the locker is located. Need a separate URL for each button, try a premium version of the plugin.</li>
+			<li><b>Locker header</b>: Type a header which attracts attention or calls to action. You can leave this field empty</li>
+			<li><b>Locker message</b>: Type a message which will appear under the header. Shortcodes: [post_title], [post_url] </li> 
+		</ul>
+	
+	<div><b>Step 2</b>: Create a Locker (a Default Locker is often made available)</div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/sociallocker2.jpg"/></div>
+	<div><b>Step 3</b>:   Press Setup Batch Lock, choose tab CSS Selector and enter the value #player-embed</div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/sociallocker1.jpg"/></div>
+	<div><b>Step 4</b>: Click <b>Update</b> and save</div>
+<h4 id="other_settings_player_logic">Conditional Code for Video Player</h4>
+	<div>This feature allows admin to control the apperance of video player using a condition (PHP) code or a shortcode. An alternative content will appear to replace the video player until the contional code returns true. </div>
+	<div>In order to use this feature, follow these steps:</div>
+		<ul>
+			<li><b>Step 1</b>: Go to <b>Posts > Add new/Edit post > Player Logic</b></li>
+			<li><b>Step 2</b>: Enter shortcode ( for example:  <b><i>[my_shortcode][player][/my_shortcode]</i></b>, [player] is required]) or condition function (ex: <b><i>is_user_logged_in() && is_sticky()</i></b> ) to control video player visiblitily in <b>Player logic</b>. Content in <b>Alternative Content</b> field will appear when the condition function return <b>false</b></li>
+			<li><b>Step 3</b>: Save</li>	
+		</ul>
+	<div><b>For Example</b>: enter with the following shortcode into <b>Player Logic</b></div>
+	<textarea cols="100" rows="5">
+[scb layout="small_carousel" column="6" row="1" condition="latest" order="DESC" show_title="1" show_excerpt="1" show_rate="1" show_dur="1" show_view="1" show_com="1" show_like="1" show_aut="1" show_date="1" quick_view="def" categories="5" count="2"][player][/scb]
+	</textarea>
+	
+	<div>The result is as follows</div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/singlepost_playerlogic.jpg"/></div>
+<h4 id="other_settings_multi_links">Multi Links</h4>
+<div>Its main function is to create alternative links for a video post, so users can choose to view the video using one of available links. When a link is clicked, it will directly run in the player. Fill the following properties for <b>Multi Links</b> box:</div>
+<ul>
+	<li><b>Group Title</b>: Create title for Group</li>
+	<li><b>Links</b>: Enter your videos link and title. Enter one per line.<br/><br/>
+	For Example:<br/>
+	<textarea cols="70" rows="6">
+	Trailer 1
+	http://www.youtube.com/watch?v=nTDNLUzjkpg 
+	Trailer 2
+	http://www.youtube.com/watch?v=nTDNLUzjkpg 
+	</textarea><br/><br/>
+		 <div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/multilink.jpg"/>
+</div><br/><br/>
+<div>This is how it appears in front-end</div><br/>
+ <div class="full">
+	<img src="assets/img/loading.gif" data-src="assets/images/multilinks.jpg"/>
+</div>
+	</li>
+</ul>
+<h4 id="other_settings_movie_series">Movie Series</h4>
+<div>Its main function is to create a list of videos which belong to a same series.</div>
+<ol>
+	<li>Go to <b>Theme Options > Video Series > Enable Video Series > ON</b></li>
+	<li>Go to <b>Posts > Series</b></li>
+	<li>Create a new <b>Series</b>, then enter some information and save it</li>
+	<li>Go to <b>Posts > Add New</b> to create a post and then choose <b>Series</b> for Post</li>
+	<li>Create a Series page by going to <b>Menus > Series > Choose a series > Add to Menu</b><br/>	
+	<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/series1.jpg"/></div><br/>
+	<b>Note</b>: If Series is not displayed in the left box, go to Screen Options > Series to activate this feature<br/>
+	<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/series2.jpg"/></div><br/>
+	</li>
+	<li>Save Menu</li>
+	<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/series3.jpg"/></div><br/>
+</ol>
+<div><b>Note 1</b>: In order to configure Video Series, go to <b>Theme Options > Video Series</b> and configure the settings:</div>
+	<ul>
+		<li><b>Series Header Style</b> - Choose Series header style, including styles: <b><i>Playlist, Baner Image, Do not show</i></b></li>
+		<li><b>Series Listing Style</b> - Select style for listing, including styles: <b><i>Video listing (Grid), Blog listing</i></b></li>
+		<li><b>Video Series Slug</b> - Give a name for Video Series slug. After saving, go to <b>Settings > Permalinks</b> and re-save the settings</li>
+	</ul>
+<div><b>Note 2</b>: For single video post of a same Series, related video posts in the same series will be displayed under the video player</div>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/series.jpg"/></div><br/>
+<div><b>Note 3</b>: Use Series shortcode: go to <b>Pages > Add New Page > Backend Editor > Add Element > Series</b> or enter with code follow</div>
+<textarea cols="80" rows="2"> [movie-series series='' count='' ids=''] </textarea>
+	<div><b>properties</b></div>
+		<ul>
+			<li>series: Enter Video Series ID or Slug, videos located in a Series will be displayed</li>
+			<li>ids: Enter specific post IDs to display (ex: 6,9,18), Series video according to the specific posts will be displayed</li>
+			<li>count: Enter the number of posts, only the number of videos you entered will be displayed (Leave blank to display all)</li>
+		</ul>
+ 
+<h4 id="other_settings_report_video">Report Video</h4>  
+    <div>
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/setting-user-report_video1.jpg"/></div>
+<div>Added since TrueMag 4.2.3. This feature requires <a href="#">Contact Form 7</a> plugin to work. To configure this feature:
+<ul>
+	<li>1. Create a contact form with fields having these names:
+		<ul>
+			<li>your-email</li>
+			<li>your-message</li>
+		</ul>
+		<div>
+			<!-- sample code --><textarea cols="100" rows="6">Please fill in all information bellow to report video.
+[report_url]
+
+<p>Your Email<br />
+    [email* your-email default:user_email] </p>
+<p>Please tell us why do you think this video is inappropriate<br />
+    [textarea* your-message] </p>
+<p>[submit "Send"]</p>
+			</textarea><!-- end sample code -->
+		</div>
+        </br>
+	</li>
+	<li>
+		2. Get the form ID, for example in this form shortcode, <span style="color:red">[contact-form-7 id="2236" title="Report video"]</span>, form ID is 2236. Go to <b>Appearance > Theme Options > Single Post/Video</b>, change <b>Enable Video Report</b> to <b>Enable</b>. Paste the form ID into "Video Report Form ID".
+        <div class="full"><img src="assets/img/loading.gif" data-src="assets/images/setting-user-report_video2.jpg"/></div>
+	</li>
+	<li>
+		3. Go to <b>Reports</b> to see a list of reports.
+        <div class="clear"></div>
+	<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/setting-user-report_video3.jpg"/></div>
+    </li>
+</ul>
+</div>
+</div> 
+     <h4 id="other_settings_video_sitemap">Export Video Sitemap</h4>
+<div>TrueMag 3.2.5 added <a href="https://support.google.com/webmasters/answer/80472?hl=en#1" target="_blank">Video Sitemap</a> Export feature. To export sitemap, go to <b>Pages > Add New</b> and choose <b>Video - Sitemap</b> template. Give the page a name (slug), for example "video-sitemap", then save it. Now you can save Video Sitemap by going to that URL "http://yourdomain.com/video-sitemap"</div>
+<p>If you have a lot of videos, the full sitemap may be two long. To prevent this, edit the <b>Video - Sitemap</b> page template and scroll to <b>Video Sitemap Settings</b> box. Set the value for <b>Export Video From</b> and <b>Number of Videos</b> to truncate the full sitemap into smaller files.
+<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/video-sitemap-setting.jpg"/></div>
+<h4 id="other_settings_youtube_V3_API">VIDEO YOUTUBE V3 API</h4>
+	<div>This feature allows to retrieve the data automatically including title, pictures and content from YouTube when admin add/save a post. Since April 2015, it is required to have a Google API key. Please see instructions on how to get the key here: <a href="https://developers.google.com/youtube/registering_an_application" target="_blank">https://developers.google.com/youtube/registering_an_application</a> </div>
+	<div>In order to use this feature, follow these steps:</div>
+		<ul>
+			<li><b>Step 1</b>: Go to <b>Theme Options > Single Post/ Video > Google API Key</b></li>
+			<li><b>Step 2</b>: Enter the Google API Key. How to get your YouTube API key, please refer documentation <b><a target="_blank" href="document.html#!/youtube_api_key">here</a></b><br/>
+            <div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/api1.png"/></div> </br>
+            </li>
+			<li><b>Step 3</b>: Save</li>	
+		</ul>
+	<div><b>For Example</b>: When adding a post, enter YouTube Video URL to this field: <b>Video URL of Post Settings</b></div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/api2.png"/></div> </br>
+	
+	<div>The result is as follows</div>
+	<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/api3.png"/></div>
+
+	<h4 id="other_settings_kaltura_video">How to use Kaltura video</h4>
+		<div>TrueMag supports for videos from <a href="http://videos.kaltura.com/">http://videos.kaltura.com</a>. In order to use videos from Kaltura, follow this instruction below</div>
+			<ol>
+				<li><b>For Kaltura's public videos</b></br>
+					<ul>
+						<li>Go to <a href="http://videos.kaltura.com/">http://videos.kaltura.com/ </a>page</li>
+						<li>Click choose a video</li>
+						<li>Click the icon <b>Share</b> at the right corner of video</li></br>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_video.jpg"/></div> </br>
+						<li>Copy video's embed code</li> 
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/embed_kaltura.jpg"/></div> </br>
+						<li>Paste this code into Post's <b>Video Code</b>(<b>Posts > Add New > Video Code</b> and enter the embed code here)</li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/embed_code_kaltura.jpg"/></div> </br>
+						<li>Click <b>Publish</b> post and save</li>
+						<li>Check the result</li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/ketqua.jpg"/></div> </br>
+					</ul>
+				</li>
+				<li><b>For Kaltura's private videos</b></br>
+					<ul>
+						<li>First, register an account at <a href="http://videos.kaltura.com/">http://videos.kaltura.com/ </a>, then upload your own videos</li>
+						<li>Second, install and activate <a href="https://wordpress.org/plugins/all-in-one-video-pack/"><b>Kaltura All-in-One Video</b></a> Plugin </li>
+						<li>After plugin is successfully installed, go to <b>Settings > All in one video</b> and declare your account registered at <a href="http://videos.kaltura.com/">http://videos.kaltura.com/</a> </li>
+						<li>Go to <b>Posts</b> > <b>Add new</b> post > click the Kaltura video icon at format toolbar </li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_icon.jpg"/></div> </br>
+						<li>When the window <b>Add Kaltura Media</b> is appeared, choose tab <b>Browse Existing Media</b> to see the list of medias in your account</li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_choose_video.jpg"/></div> </br>
+						<li>Click on a video and change some attributes such as video size, types of display player</li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_choose_video1.jpg"/></div> </br>
+						<li>Click <b>Insert into post</b> to add video into post, then click tab <b>Text </b>next to the tab <b>Visual</b></li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_choose_video2.jpg"/></div> </br>
+						<li>The code segment includes video's ID. Copy video's ID shown as the image below (<i><b>Note</b>: After ID's video is copied and pasted, please delete this code segment completely to remove the video you have just added. This step is only used to get ID's video</i>)</li>
+						<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_choose_video3.jpg"/></div> </br>
+						<li>Paste this ID into <b>Video ID</b> and choose <b>Video</b> in <b>Format</b> and <b>Publish</b> post </li>
+					</ul>
+					<div class="full"><img alt="" src="assets/img/loading.gif" data-src="assets/images/kaltura_choose_video4.jpg"/></div> </br>
+				</li>
+			</ol>
+	<h4 id="other_settings_jwplayer_subtitle">JWPlayer 6 - Video Sub-title</h4>
+	<div>
+		Since True Mag 3.4, you are able to add sub-titles for videos if you use JWPlayer WordPress plugin 6. You will need a sub-title file which looks like this: <a href="http://assets-jp.jwpsrv.com/tracks/2UEDrDhv.txt">http://assets-jp.jwpsrv.com/tracks/2UEDrDhv.txt</a>. JWPlayer supports captions in two format:
+			<ul>
+				<li><a href="http://dev.w3.org/html5/webvtt/" target="_blank">WebVTT</a>, a plain text format that's part of the HTML5 standard.</li>
+				<li><a href="http://en.wikipedia.org/wiki/SubRip" target="_blank">SRT</a>, a plain text format that's popular amongst file sharers.</li>
+			</ul>
+		<p>To use this feature, go to a video post and find the "Closed Captions" setting box. Upload sub-title files somewhere and then paste the link to <b>Video Caption</b> fields. Each field is for a language</p>
+		<div class="full"><img src="assets/img/loading.gif" data-src="assets/images/close-captions.jpg"/><br/></div>
+		
+	</div>
+	
+	<h4 id="other_settings_jwplayer_7">JWPlayer 7 - Integration</h4>
+	<div><p>Since JWPlayer 7, the plugin's author has removed the official WordPress plugin for JWPlayer. We now support the (unofficial) <a href="https://wordpress.org/plugins/jw-player-7-for-wp/" target="_blank">JWPlayer 7 for WordPress</a></p>
+		<p>To make it work, make sure you have registered a free account at this link: <a href="http://www.ilghera.com/support/topic/jw-player-self-hosted-setup/" target="_blank">http://www.ilghera.com/support/topic/jw-player-self-hosted-setup/</a> and follow the steps</p>
+		<p>Go to <b>Theme Options >  Single Post/Video > JWPlayer version</b> and change to JWPlayer 7</p>
+	</div>
+	
+	<h4 id="other_settings_wordpress_automatic">WordPress Automatic</h4>
+	<div>
+	<p> When setting up a Campain in WP Automatic, you need to config to add video url to Video URL field, pls follow these steps:</p>
+		<ul>
+			<li><strong>Step 1:</strong> Enable <strong>"Add custom fields to the posts"</strong> option</li>
+			<li><strong>Step 2:</strong> Enter Field name: <strong>tm_video_url</strong> option</li>
+			<li><strong>Step 3:</strong> Enter Value:<strong>[source_link]</strong></li>
+			<li><strong>Step 4:</strong> Save</li>
+		</ul>
+	</div>
+			
+</section>
+
+<section id="hooks">
+	<h3>Hooks</h3><hr class="notop">
+	<div>True Mag provides some "hooks" that allow developers to customize the theme (using child-theme or plugin)<br/><br/>
+	<table class="table" cellspacing="1" cellpadding="0">
+	<tr class="head"><td>No.</td><td>Name</th><td>Purpose</td><td>Since</td><td>Sample Code</td></tr>
+	<tr><td>1</td><td>cactus_player_hook</th><td>To replace the video player by your own player</td><td>3.2</td><td>In this case, you want to use JWPlayer instead of default video player (True Mag had automatically recognized JWPlayer)<br/><br/><pre> function jwplayer_hook($player_html, $url, $id_post) {
+		$file = get_post_meta($id_post, 'tm_video_file', true);
+		if($file!=''){
+			if(class_exists('JWP6_Plugin')) {
+				if (JWP6_USE_CUSTOM_SHORTCODE_FILTER)
+					add_filter('tm_video_filter', array('JWP6_Shortcode', 'widget_text_filter'));
+			}
+			if(function_exists('jwplayer_tag_callback')) {
+				add_filter('tm_video_filter', 'jwplayer_tag_callback');
+			}
+			$jwplayer_shortcode = '[jwplayer config="firstplayer" file="'.$file.'" ]';
+			echo apply_filters('tm_video_filter', $jwplayer_shortcode);
+		}else{
+			return $player_html;
+		}
+	}
+	add_filter( 'cactus_player_hook', 'jwplayer_hook',10,3 );</pre></td></tr>
+	</table>
+	</div>
+</section>
+
+<section id="language">
+	<h3>Translation & RTL</h3><hr class="notop">
+<div>TrueMag is a WMPL-compatible and multi-language ready theme. To translate this theme:
+	<ul>
+		<li>Download and install this tool <a href="http://www.poedit.net/">POEdit</a></li>
+		<li>Open POEdit and load <b>[/TrueMag/languages/TrueMag.po]</b></li>
+		<li>Translate the text and save the file</li>
+		<li>A file named <b>TrueMag.mo</b> is created. Rename it with Code Name of your language. For example, <b>de_DE.mo</b> for German - Deutsche. See language code list here <a href="http://codex.wordpress.org/WordPress_in_Your_Language" target="_blank">http://codex.wordpress.org/WordPress_in_Your_Language</a></li>
+		<li>Open <b>[{wordpress root}/wp_config.php]</b> and find this line <b>define('WPLANG', '');</b>. Change it with your language code, for example <b>define('WPLANG', 'de_DE');</b></li>
+	</ul>
+</div>
+<div>&nbsp;</div>
+<div>TrueMag also supports <b>RTL - Right To Left</b> languages. If your language is RTL, go to <b>Apperance > Theme Options > RTL mode</b> and check <b>Enable RTL</b></div>
+</section>
+<section id="licenses">
+	<h3>Licenses</h3><hr class="notop">
+<p>
+	Used Assets</p>
+<ul>
+	<li>Revolution Slider (Extended License) - http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380</li>
+	<li>Visual Composer (Extended License) - http://codecanyon.net/item/visual-composer-for-wordpress/242431</li>
+	<li>Option Tree (GPL2 License) by Derek Herman - http://wp.envato.com</li>
+	<li>BootStrap (Apache License v2.0) - http://twitter.github.io/bootstrap/</li>
+	<li>Font Awesome (GPL License) by Dave Gandy - http://fontawesome.io</li>	
+	<li>Mobile Detect (MIT License) by Serban Ghita <serbanghita@gmail.com> and Victor Stanciu <vic.stanciu@gmail.com> (until v. 1.0) - http://mobiledetect.net</li>
+	<li>jQuery Scrollbox by Hunter Wu - http://github.com/wmh/jquery-scrollbox</li>
+	<li>Caroufredsel by dev7studios - MIT license http://dev7studios.com/plugins/caroufredsel/ </li>
+	<li>Hammer by Jorik Tangelder @ Eight Media - MIT license http://eightmedia.github.com/hammer.js</li>
+</ul>
+<p>&nbsp;</p>
+<p>The list might not be complete by accident. Authors who think you owe a license in this theme, please contact us at admin@cactusthemes.com</p>
+<h3>Support</h3><hr class="notop">
+<p>
+	If you face problems with the installation or customization of our product please do not hesitate to contact us via our support ticket system:</p>
+<p>
+	<strong><a href="http://ticket.cactusthemes.com//">http://ticket.cactusthemes.com/</a></strong></p>
+</section>
+
+	</div>
+</body>
+</html>

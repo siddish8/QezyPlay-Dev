@@ -1,0 +1,5 @@
+[29-Nov-2016 04:59:07 UTC] PHP Fatal error:  Cannot redeclare get_var() (previously declared in /home/tradmin/public_html/newqezyplay/qp/user_stats_info.php:9) in /home/tradmin/public_html/newqezyplay/qp/function_common.php on line 232
+[29-Nov-2016 04:59:12 UTC] PHP Fatal error:  Cannot redeclare get_var() (previously declared in /home/tradmin/public_html/newqezyplay/qp/user_stats_info.php:9) in /home/tradmin/public_html/newqezyplay/qp/function_common.php on line 232
+[02-Dec-2016 10:00:05 UTC] PHP Fatal error:  Call to a member function get_var() on a non-object in /home/tradmin/public_html/newqezyplay/qp/uservalidation_check.php on line 550
+[12-Dec-2016 11:46:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp/function_common.php on line 223
+[12-Dec-2016 11:46:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tradmin/public_html/newqezyplay/qp/function_common.php on line 223

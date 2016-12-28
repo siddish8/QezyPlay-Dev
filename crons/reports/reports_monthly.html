@@ -1,0 +1,77 @@
+<?php
+
+if( ($stmt->rowCount() > 0) && ($stmt1->rowCount() > 0)){
+?>
+<table>
+	<tr>
+		
+			<td valign="top">
+		  <!--<a href="<?php //echo MAIN_URL;?>/charts_monthly_statewise.php?date=<?php // echo $date_for_web; ?>&category=Country&source=mail&customer_id=<?php //echo $logininfo["customer_id"];?>">Click to view on web</a><br>-->
+			
+			<!--a href="<?php echo MAIN_URL;?>/charts_monthly.php?date=<?php echo $date_for_web; ?>&category=Country-City&source=mail&customer_id=<?php echo $logininfo["customer_id"];?>">Click to view on web</a><br!-->
+			
+			<img src="reports/<?php echo $fileName5; ?>">
+		</td>
+		<td valign="top" style="padding-top:20px;padding-left:20px">
+		
+        <table cellpadding="5" style="border:1px solid black;border-collapse:collapse;">
+          <thead><th style='border:1px solid black;'>Code</th><th style='border:1px solid black;'>Country</th><th style='border:1px solid black;'>Clicks</th></thead>
+    			<?php				
+    			foreach($country_code_city_display_array_hits as $value){
+						echo "<tr><td style='border:1px solid black;'>".$value['country_code']."</td><td style='border:1px solid black;'>".$value['country']."";
+						if(count($value['cityinfo']) > 0){
+							echo "<table cellpadding='5' width='100%' style='border:1px solid black;border-collapse:collapse;'><thead><th style='border:1px solid black;'>City</th><th style='border:1px solid black;'>Clicks</th></thead>";
+								foreach($value['cityinfo'] as $key1=>$value1){
+									echo "<tr><td style='border:1px solid black;'>".$value1['city']."</td><td style='border:1px solid black;'>".$value1['clicks']."</td></tr>";
+								}
+							echo "</table>";
+						}
+						echo "</td><td style='border:1px solid black;'>".$value['clicks']."</td></tr>";
+						
+					}
+    			?>
+        </table>
+      
+		</td>
+	</tr>
+	 <tr>
+		<td colspan='2' height="50px">
+		<td>
+	</tr>
+	<tr>
+		
+			<td valign="top">
+		  <!--<a href="<?php //echo MAIN_URL;?>/charts_monthly_statewise.php?date=<?php // echo $date_for_web; ?>&category=Country&source=mail&customer_id=<?php //echo $logininfo["customer_id"];?>">Click to view on web</a><br>-->
+			
+			<!--a href="<?php echo MAIN_URL;?>/charts_monthly.php?date=<?php echo $date_for_web; ?>&category=Country-City&source=mail&customer_id=<?php echo $logininfo["customer_id"];?>">Click to view on web</a><br!-->
+			
+			<img src="reports/<?php echo $fileName6; ?>">
+		</td>
+		<td valign="top" style="padding-top:20px;padding-left:20px">
+		
+        <table cellpadding="5" style="border:1px solid black;border-collapse:collapse;">
+          <thead><th style='border:1px solid black;'>Code</th><th style='border:1px solid black;'>Country</th><th style='border:1px solid black;'>Duration<br>(Mins)</th></thead>
+    			<?php				
+    			foreach($country_code_city_display_array_duration as $value){
+						echo "<tr><td style='border:1px solid black;'>".$value['country_code']."</td><td style='border:1px solid black;'>".$value['country']."";
+						if(count($value['cityinfo']) > 0){
+							echo "<table cellpadding='5' width='100%' style='border:1px solid black;border-collapse:collapse;'><thead><th style='border:1px solid black;'>City</th><th style='border:1px solid black;'>Duration</th></thead>";
+								foreach($value['cityinfo'] as $key1=>$value1){
+									echo "<tr><td style='border:1px solid black;'>".$value1['city']."</td><td style='border:1px solid black;'>".$value1['duration']."</td></tr>";
+								}
+							echo "</table>";
+						}
+						echo "</td><td style='border:1px solid black;'>".$value['duration']."</td></tr>";
+						
+					}
+    			?>
+        </table>
+      
+		</td>
+	</tr>
+</table>
+<?php
+}else{
+	echo "No Reports for the month.";
+}
+?>

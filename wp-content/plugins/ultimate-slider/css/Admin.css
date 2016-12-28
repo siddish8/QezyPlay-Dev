@@ -1,0 +1,317 @@
+.ewd-us-hidden {
+  display: none;
+}
+.ewd-us-clear {
+  clear: both;
+}
+
+/***********************************************************
+* META BOX STYLING
+***********************************************************/
+.ewd-us-meta-menu {
+  float: left;
+  max-width: 120px;
+}
+.ewd-us-meta-menu-item {
+  float:left;
+  padding: 0;
+  width:100%;
+  margin:0 !important;
+  display:block;
+  height:40px;
+  line-height:40px;
+  font-weight:10;
+  padding-left:20px;
+  background-color: rgba(224, 224, 224, 0.5);
+  cursor: pointer;
+}
+
+.ewd-us-meta-menu-item.meta-menu-tab-active {
+  box-shadow: inset 2px 0 0 #1188cc;
+  background-color: #ffffff !important;
+  color: #29324e;
+}
+.ewd-us-meta-menu-item:hover {
+  color: #29324e;
+  background-color: rgba(199,199,199, 0.5);
+  box-shadow: inset 2px 0 0 #1188cc; 
+}
+
+.ewd-us-meta-body {
+  min-width: 300px;
+  max-width: 600px;
+  float: left;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.ewd-us-meta-option-radio {
+  width: 24px;
+  float: left;
+  min-height: 30px;
+}
+.ewd-us-meta-option-explanation {
+  min-height: 30px;
+}
+
+#ewd-us-buttons-list-table {
+  min-width: 400px;
+}
+
+#ewd-us-buttons-list-table tbody td {
+  padding-top: 12px;
+}
+
+
+/***********************************************************
+* TABBED OPTIONS PAGE
+***********************************************************/
+
+.us-hidden {
+  display:none;
+}
+
+.us-options-page-tabbed {
+  min-height:450px;
+  height:auto;
+}
+.us-options-page-tabbed-nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    width:15%;
+    z-index: 1;
+    min-width:100px;
+    margin:0 !important;
+  }
+
+.us-options-submenu-div li {
+    float:left;
+    padding: 0;
+    width:100%;
+    margin:0; !important;
+  }
+.us-options-submenu-div a {
+  display:block;
+  height:40px;
+  line-height:40px;
+  font-weight:10;
+  padding-left:20px;
+}
+.us-options-submenu-div a.options-subnav-tab-active,
+.us-options-submenu-div a.styling-subnav-tab-active{
+  box-shadow: inset 2px 0 0 #1188cc;
+  background-color: #ffffff !important;
+  color: #29324e;
+}
+.us-options-submenu-div a.options-subnav-tab,
+.us-options-submenu-div a.styling-subnav-tab{
+  background-color: rgba(224, 224, 224, 0.5);
+}
+.us-options-submenu-div a:hover {
+  color: #29324e;
+  background-color: rgba(199,199,199, 0.5);
+  box-shadow: inset 2px 0 0 #1188cc;
+ 
+}
+
+.us-options-submenu-div {
+  float:left;
+  width:100px;
+  border: 1px solid #e5e5e5;
+}
+.us-options-page-tabbed-content,
+.us-styling-page-tabbed-content {
+  float:left;
+  width:80%;
+  z-index: 999;
+  background:#fff;
+  margin:0 !important;
+  position:relative;
+  min-height:400px;
+  border: 1px solid #e5e5e5;
+  padding-bottom:5px;
+}
+.ewd-us-option-set,
+.us-styling-set{
+  width:85%;
+  margin:0 auto;
+  position:relative;
+  left:10px;
+  min-height:400px;
+}
+.us-options-page-tab-title{
+  margin:15px 0 !important;
+}
+
+.us-options-page-tabbed p.submit {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.us-label-option {
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+  .us-options-page-tabbed,
+  .us-styling-page-tabbed{
+    margin:0;
+  }
+  .us-options-submenu-div {
+  width: 100%;
+}
+.us-options-page-tabbed-nav{
+  width:100%;
+}
+.us-options-page-tabbed li{
+  float:none;
+}
+.us-options-page-tabbed a.styling-subnav-tab{
+  width:25%;
+  float:left;
+  padding:0;
+  text-align:center;
+}
+.us-options-page-tabbed a.options-subnav-tab-active{
+}
+
+.us-options-page-tabbed-content,
+.us-styling-page-tabbed-content{
+  width:100%;
+}
+
+}
+
+/***********************************************************
+FLEXBOX STYLING
+***********************************************************/
+.ewd-us-option-set h3,
+.us-styling-set h3 {
+  padding-top:10px;
+}
+.us-options-table th {
+  padding:15px 5px;
+  height:1em;
+}
+
+.us-options-page-tabbed input[type=text],
+.us-styling-page-tabbed input[type=text] {
+  width: 90% !important;
+  max-width:130px;
+}
+.us-options-page-tabbed select,
+.us-options-page-tabbed textarea
+{
+  width:50% !important;
+}
+
+.us-styling-page-tabbed select,
+.us-styling-page-tabbed textarea{
+
+}
+
+.us-options-div {
+  width:100%;
+}
+.us-options-div.us-options-flex {
+  width:100%;
+  display:flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+.us-subsection{
+margin: 0 10px 10px 0;
+flex-grow:1;
+}
+.us-subsection-half{
+  width:50%;
+}
+
+.us-subsection-header{
+margin:3px;
+}
+
+.us-options-page-tabbed .submit{
+  float:left;
+  margin-top:0;
+}
+.us-options-page-tabbed .submit input[type=submit]{
+  position:relative;
+ /* left:100px;*/
+}
+
+.us-subsection-header {
+  font-size:1.2em;
+  font-weight:900;
+  padding: 10px;
+  margin:0;
+}
+
+.us-subsection-content{
+    padding: 10px;
+}
+.us-subsection-content .us-option {
+  margin: 8px 0;
+}
+.us-subsection-content.us-subsection-full{
+    border: none;
+    padding: 5px;
+}
+
+/*Subsection Rows*/
+.us-subsection-content .us-option-label {
+  display:inline;
+}
+.us-subsection-content .us-option-checkbox {
+  display:inline;
+}
+.us-subsection-content .us-option-one-line {
+  margin-bottom: 24px;
+}
+.us-subsection-content .us-option-one-line .us-arrow {
+  font-size: 4.5em;
+}
+
+
+
+/*
+==============================================
+Admin Table
+==============================================
+*/
+.ewd-us-admin-table-thumbnail {
+  width: 100px;
+  height: auto;
+  padding: 2px;
+}
+th.column-us_thumbnail {
+  width: 136px;
+}
+
+
+
+/*
+==============================================
+Arrow Font
+==============================================
+*/
+
+@font-face { /* declare fonts */
+  font-family: 'untitled-font-7';
+  src: url("fonts/untitled-font-7.eot");
+    src: url('fonts/untitled-font-7.woff2') format('woff2'),
+         url('fonts/untitled-font-7.woff') format('woff'),
+         url("fonts/untitled-font-7.ttf") format("truetype"),
+    url("fonts/untitled-font-7.svg#untitled-font-7") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.us-arrow {
+  font-family: 'untitled-font-7';
+}

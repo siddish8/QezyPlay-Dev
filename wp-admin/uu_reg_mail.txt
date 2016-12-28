@@ -1,0 +1,287 @@
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+
+Hi,
+
+A new user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+This is an automated notification. No further action is needed.
+
+Best Regards!<p>Hi, Admin</p><p>A new user has been registered.</p><p>Account username: {{userultra_user_name}}</p><br /><br /> <br/><p>This is an automated notification. No further action is needed.</p><p>Best Regards!</p>Hi,
+
+A new paid user has been registered.
+
+Account e-mail: {{userultra_user_email}}
+Account username: {{userultra_user_name}}
+Package: {{userultra_user_package}}
+This is an automated notification. No further action is needed.
+
+Best Regards!Hi,
+
+Thanks for registering. Your account needs activation.
+
+Please click on the link below to activate your account:
+
+{{user_ultra_activation_url}}
+
+Your account e-mail: {{userultra_user_email}}
+Your account username: {{userultra_user_name}}
+Your account password: {{userultra_pass}}
+
+If you have any problems, please contact us at {{userultra_admin_email}}.
+
+Best Regards!Hi,
+
+Your account has been verified.
+
+Please use the link below to get in your account.
+
+{{userl_ultra_login_url}}
+
+Best Regards!
+

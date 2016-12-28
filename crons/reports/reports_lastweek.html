@@ -1,0 +1,68 @@
+<?php
+
+if( ($stmt3->rowCount() > 0) && ($stmt4->rowCount() > 0)){
+
+?>
+<table>
+	<tr>
+		
+			<td valign="top">
+		  <!--<a href="<?php //echo MAIN_URL;?>/charts_weekly_statewise.php?date=<?php // echo $date_for_web; ?>&category=Country&source=mail&customer_id=<?php //echo $logininfo["customer_id"];?>">Click to view on web</a><br>-->
+			
+			<!--a href="<?php echo MAIN_URL;?>/charts_weekly.php?date=<?php echo $date_for_web; ?>&category=Country-City&source=mail&customer_id=<?php echo $logininfo["customer_id"];?>">Click to view on web</a><br!-->
+			
+			<img src="reports/<?php echo $fileName3; ?>" />
+		</td>
+		<td valign="top" style="padding-top:20px;padding-left:20px">
+		
+        <table cellpadding="5" style="border:1px solid black;border-collapse:collapse;">
+          <thead><th style='border:1px solid black;'>Channel</th><th style='border:1px solid black;'>Hits</th></thead>
+    			<?php				
+    			//foreach($country_code_city_display_array_hits as $value){
+			foreach($X[2] as $key=>$value){
+						echo "<tr><td style='border:1px solid black;'>".$key."</td><td style='border:1px solid black;'>".$value."";
+						
+						//echo "</td><td style='border:1px solid black;'>".$value['clicks']."</td></tr>";
+						
+					}
+    			?>
+        </table>
+      
+		</td>
+	</tr>
+	 <tr>
+		<td colspan='2' height="50px">
+		<td>
+	</tr>
+	<tr>
+		
+			<td valign="top">
+		  <!--<a href="<?php //echo MAIN_URL;?>/charts_weekly_statewise.php?date=<?php // echo $date_for_web; ?>&category=Country&source=mail&customer_id=<?php //echo $logininfo["customer_id"];?>">Click to view on web</a><br>-->
+			
+			<!--a href="<?php echo MAIN_URL;?>/charts_weekly.php?date=<?php echo $date_for_web; ?>&category=Country-City&source=mail&customer_id=<?php echo $logininfo["customer_id"];?>">Click to view on web</a><br!-->
+			
+			<img src="reports/<?php echo $fileName4; ?>" />
+		</td>
+		<td valign="top" style="padding-top:20px;padding-left:20px">
+		
+        <table cellpadding="5" style="border:1px solid black;border-collapse:collapse;">
+          <thead><th style='border:1px solid black;'>Channel</th><th style='border:1px solid black;'>Duration(Mins)</th></thead>
+    			<?php				
+    			//foreach($country_code_city_display_array_duration as $value){
+			foreach($Y[2] as $key=>$value){
+						echo "<tr><td style='border:1px solid black;'>".$key."</td><td style='border:1px solid black;'>".$value."";
+						
+						//echo "</td><td style='border:1px solid black;'>".$value['duration']."</td></tr>";
+						
+					}
+    			?>
+        </table>
+      
+		</td>
+	</tr>
+</table>
+<?php
+}else{
+	echo "No Reports for the last week.";
+}
+?>

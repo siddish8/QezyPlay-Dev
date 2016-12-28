@@ -1,0 +1,9 @@
+﻿
+
+user_id:57  planstartdate:2016-08-23 00:00:00  nextpaydate:2017-02-23 00:00:00
+enddate:  2017-02-23 00:00:00
+pmpro_dates_chk_ID:  64
+updated:  1
+sub_delay:  184
+sub_delay_db_options:  184
+last_updDate:  2016-08-23     next_paydate:  0000-00-00 00:00:00          this_chk_id=72

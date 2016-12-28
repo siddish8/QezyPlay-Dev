@@ -1,0 +1,26 @@
+userpass:test7Array
+(
+    [0] => stdClass Object
+        (
+            [Name] => wp_users
+            [Engine] => MyISAM
+            [Version] => 10
+            [Row_format] => Dynamic
+            [Rows] => 28
+            [Avg_row_length] => 108
+            [Data_length] => 3156
+            [Max_data_length] => 281474976710655
+            [Index_length] => 8192
+            [Data_free] => 108
+            [Auto_increment] => 46
+            [Create_time] => 2016-07-14 18:13:42
+            [Update_time] => 2016-08-05 02:43:43
+            [Check_time] => 
+            [Collation] => utf8mb4_general_ci
+            [Checksum] => 
+            [Create_options] => 
+            [Comment] => 
+        )
+
+)
+id1:46userpass:test7id1:47userpass:test747
